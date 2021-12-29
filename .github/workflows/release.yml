@@ -16,6 +16,7 @@ jobs:
       - run: | 
           git config --global user.email "noreply@github.com"
           git config --global user.name "github-actions"
+          npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
 
       - run: yarn bootstrap
       - run: yarn release --no-verify-access
