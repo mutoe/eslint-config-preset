@@ -3,7 +3,7 @@
  */
 module.exports = {
   extends: [
-    '@osdoc-dev/eslint-config-preset-react',
-    '@osdoc-dev/eslint-config-preset-vue',
+    '@mutoe/eslint-config-preset-react',
+    '@mutoe/eslint-config-preset-vue',
   ],
-};
+}

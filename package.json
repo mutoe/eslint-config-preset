@@ -1,8 +1,8 @@
 {
-  "name": "@osdoc-dev/eslint-config-preset",
+  "name": "@mutoe/eslint-config-preset",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "ahwgs <ah_wgs@126.com> (https://github.com/ahwgs)",
+  "author": "mutoe",
   "private": true,
   "scripts": {
     "release": "lerna publish --conventional-commits --yes",

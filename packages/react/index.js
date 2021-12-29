@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'plugin:react/recommended',
-    '@osdoc-dev/eslint-config-preset-ts',
+    '@mutoe/eslint-config-preset-ts',
     'prettier/react',
     'plugin:jsx-a11y/recommended',
   ],
@@ -34,4 +34,4 @@ module.exports = {
     'react/default-props-match-prop-types': 0,
     'react-hooks/rules-of-hooks': 2, // Checks rules of Hooks
   },
-};
+}

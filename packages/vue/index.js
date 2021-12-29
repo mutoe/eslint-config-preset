@@ -14,11 +14,11 @@ module.exports = {
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@osdoc-dev/eslint-config-preset-ts',
+    '@mutoe/eslint-config-preset-ts',
   ],
   rules: {
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
     'vue/html-self-closing': 'off',
     'vue/no-v-html': 'off',
   },
-};
+}

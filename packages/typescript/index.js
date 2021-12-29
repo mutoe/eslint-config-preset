@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@osdoc-dev/eslint-config-preset-basic',
+    '@mutoe/eslint-config-preset-basic',
     'plugin:@typescript-eslint/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -36,4 +36,4 @@ module.exports = {
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-use-before-define': 2,
   },
-};
+}
