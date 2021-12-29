@@ -2,7 +2,6 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     '@mutoe/eslint-config-preset-ts',
-    'prettier/react',
     'plugin:jsx-a11y/recommended',
   ],
   plugins: ['react-hooks'],
