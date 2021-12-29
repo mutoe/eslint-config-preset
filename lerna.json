@@ -20,5 +20,6 @@
       "allowBranch": "master"
     }
   },
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "npmClient": "yarn"
 }
