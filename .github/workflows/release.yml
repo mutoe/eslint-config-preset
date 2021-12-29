@@ -7,14 +7,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
-    - uses: actions/checkout@v2
-    - run: |
-        npm config set registry https://registry.npmjs.org
-        npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
-    - run: | 
-        git config --global user.email "mutoe@foxmail.com"
-        git config --global user.name "mutoe"
+      - uses: actions/checkout@v2
+      - run: |
+          npm config set registry https://registry.npmjs.org
+      - run: | 
+          git config --global user.email "mutoe@foxmail.com"
+          git config --global user.name "mutoe"
 
-    - run: yarn bootstrap
-    - run: yarn release
+      - run: yarn bootstrap
+      - run: yarn release
