@@ -6,7 +6,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'airbnb',
+    'standard',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:eslint-comments/recommended',
