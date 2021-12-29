@@ -1,0 +1,25 @@
+{
+  "name": "@mutoe/eslint-config-preset-standard",
+  "version": "0.4.2",
+  "description": "standard with built-int import, node, promise plugin",
+  "author": "mutoe",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  }
+}
