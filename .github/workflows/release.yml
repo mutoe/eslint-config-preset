@@ -18,4 +18,4 @@ jobs:
           git config --global user.name "github-actions"
 
       - run: yarn bootstrap
-      - run: yarn release
+      - run: yarn release --no-verify-access
