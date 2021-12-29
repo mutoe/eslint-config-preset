@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "lint preset",
   "main": "index.js",
   "author": "mutoe",
@@ -18,8 +18,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-react": "^0.4.1",
-    "@mutoe/eslint-config-preset-vue": "^0.4.1",
+    "@mutoe/eslint-config-preset-react": "^0.4.2",
+    "@mutoe/eslint-config-preset-vue": "^0.4.2",
     "eslint": "^7.22.0"
   },
   "devDependencies": {
