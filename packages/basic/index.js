@@ -6,7 +6,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'standard',
+    '@mutoe/eslint-config-preset-standard',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:eslint-comments/recommended',
@@ -201,4 +201,4 @@ module.exports = {
     'no-unused-expressions': 0,
     'unicorn/prevent-abbreviations': 0,
   },
-};
+}
