@@ -7,8 +7,6 @@ module.exports = {
   },
   extends: [
     '@mutoe/eslint-config-preset-standard',
-    'plugin:import/errors',
-    'plugin:import/warnings',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/recommended',
@@ -22,6 +20,10 @@ module.exports = {
     },
   },
   overrides: [
+    {
+      files: ['*.yaml', '*.yml'],
+      parser: 'yaml-eslint-parser'
+    },
     {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',
@@ -41,13 +43,13 @@ module.exports = {
             pathPattern: '^$',
             order: [
               'name',
+              'author',
               'version',
               'description',
               'keywords',
               'license',
               'repository',
               'funding',
-              'author',
               'type',
               'files',
               'exports',
@@ -62,6 +64,7 @@ module.exports = {
               'peerDependenciesMeta',
               'dependencies',
               'devDependencies',
+              'prettier',
               'eslintConfig',
             ],
           },
@@ -72,6 +75,18 @@ module.exports = {
         ],
       },
     },
+    {
+      files: ['*.test.*', '*.spec.*'],
+      rules: {
+        'prefer-arrow-callback': [
+          'error',
+          {
+            allowNamedFunctions: false,
+            allowUnboundThis: true,
+          },
+        ],
+      }
+    }
   ],
   rules: {
     // import
@@ -123,13 +138,6 @@ module.exports = {
       {
         destructuring: 'any',
         ignoreReadBeforeAssign: true,
-      },
-    ],
-    'prefer-arrow-callback': [
-      'error',
-      {
-        allowNamedFunctions: false,
-        allowUnboundThis: true,
       },
     ],
     'object-shorthand': [

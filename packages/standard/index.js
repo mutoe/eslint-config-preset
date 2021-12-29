@@ -10,9 +10,11 @@ module.exports = {
         window: 'readonly',
     },
     plugins: [
-        'import',
         'node',
         'promise',
+    ],
+    extends: [
+        'plugin:import/recommended',
     ],
     rules: {
         'no-var': 'warn',

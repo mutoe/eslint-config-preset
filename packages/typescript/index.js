@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     '@mutoe/eslint-config-preset-basic',
+    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
   ],
   parser: '@typescript-eslint/parser',
