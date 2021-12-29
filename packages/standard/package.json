@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset-standard",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "standard with built-int import, node, promise plugin",
   "author": "mutoe",
   "license": "MIT",
