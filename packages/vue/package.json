@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset-vue",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "main": "index.js",
   "author": "mutoe",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-ts": "^0.5.2",
+    "@mutoe/eslint-config-preset-ts": "^0.5.3",
     "eslint-plugin-vue": "^8.2.0"
   },
   "devDependencies": {
