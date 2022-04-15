@@ -21,13 +21,13 @@ module.exports = {
   overrides: [
     {
       files: ['*.yaml', '*.yml'],
-      parser: 'yaml-eslint-parser'
+      parser: 'yaml-eslint-parser',
     },
     {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',
       rules: {
-        quotes: ['error', 'double'],
+        'quotes': ['error', 'double'],
         'quote-props': ['error', 'always'],
         'comma-dangle': ['error', 'never'],
       },
@@ -84,53 +84,25 @@ module.exports = {
             allowUnboundThis: true,
           },
         ],
-      }
-    }
+      },
+    },
   ],
   rules: {
-    // import
-    'import/order': 'error',
-    'import/first': 'error',
-    'import/no-mutable-exports': 'error',
-    'import/no-unresolved': 'off',
-    'import/no-absolute-path': 'off',
-
-    // Common
-    semi: ['error', 'never'],
-    curly: ['error', 'multi-or-nest', 'consistent'],
-    quotes: ['error', 'single'],
-    'quote-props': ['error', 'as-needed'],
+    // Warning
     'no-unused-vars': 'warn',
-    'no-param-reassign': 'off',
-    'array-bracket-spacing': ['error', 'never'],
-    'brace-style': 0,
-    'block-spacing': ['error', 'always'],
-    camelcase: 'off',
-    'comma-spacing': ['error', { before: false, after: true }],
-    'comma-style': ['error', 'last'],
-    'comma-dangle': 0,
-    'no-constant-condition': 'warn',
+    'no-alert': 'warn',
+
+    'complexity': ['warn', 11],
+
+    // Off
+    'import/no-unresolved': 'off',
+
+    'import/order': 'error',
+    'comma-dangle': ['error', 'always-multiline'],
+    'quote-props': ['error', 'consistent-as-needed'],
+    'indent': ['error', 2, { SwitchCase: 1 }],
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-cond-assign': ['error', 'always'],
-    'func-call-spacing': ['off', 'never'],
-    'key-spacing': ['error', { beforeColon: false, afterColon: true }],
-    indent: 0,
-    'no-restricted-syntax': [
-      'error',
-      'DebuggerStatement',
-      'ForInStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
-    'no-await-in-loop': 0,
-    'no-spaced-func': 'error',
-    'object-curly-spacing': ['error', 'always'],
-    'no-return-await': 'off',
-    'space-before-function-paren': 0,
-    'global-require': 0,
-    'import/no-dynamic-require': 0,
-    // es6
     'no-var': 'error',
     'prefer-const': [
       'error',
@@ -150,26 +122,7 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
-    'template-curly-spacing': 'error',
-    'arrow-parens': 0,
-    'generator-star-spacing': 'off',
-
-    // best-practice
-    'array-callback-return': 'error',
     'block-scoped-var': 'error',
-    'consistent-return': 'off',
-    complexity: ['off', 11],
-    eqeqeq: ['error', 'allow-null'],
-    'no-alert': 'warn',
-    'no-case-declarations': 'error',
-    'no-multi-spaces': 'error',
-    'no-multi-str': 'error',
-    'no-with': 'error',
-    'no-void': 'error',
-    'no-useless-escape': 'off',
-    'vars-on-top': 'error',
-    'require-await': 'off',
-    'no-return-assign': 'off',
 
     // // unicorns
     // // Pass error message when throwing errors
@@ -197,16 +150,9 @@ module.exports = {
     // // Use new when throwing error
     // 'unicorn/throw-new-error': 'error',
     // 'unicorn/expiring-todo-comments': 'off',
-    // 'unicorn/no-array-for-each': 0,
-    // 'unicorn/no-process-exit': 0,
-    // 'unicorn/no-null': 0,
-    // 'unicorn/prevent-abbreviations': 0,
-
-    'no-use-before-define': 0,
-    'eslint-comments/disable-enable-pair': 'off',
-    'import/prefer-default-export': 'off',
-    'import/extensions': 'off',
-    'operator-linebreak': 0,
-    'no-unused-expressions': 0,
+    // 'unicorn/no-array-for-each': 'off',
+    // 'unicorn/no-process-exit': 'off',
+    // 'unicorn/no-null': 'off',
+    // 'unicorn/prevent-abbreviations': 'off',
   },
 }
