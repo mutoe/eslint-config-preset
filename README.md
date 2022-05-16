@@ -5,8 +5,8 @@
 ## Version
 
 ### `eslint-config-standard`
-![[eslint-config-standard](https://github.com/standard/eslint-config-standard)](https://img.shields.io/npm/v/eslint-config-standard?label=upstream&style=flat-square)
-![eslint-config-standard](https://img.shields.io/badge/local-v16.0.3-blue?style=flat-square)
+[![upstream-standard-version](https://img.shields.io/npm/v/eslint-config-standard?label=upstream&style=flat-square)](https://github.com/standard/eslint-config-standard)
+![local-standard-version](https://img.shields.io/badge/local-v16.0.3-blue?style=flat-square)
 
 ## Usage
 
@@ -20,8 +20,34 @@ yarn add -D eslint @mutoe/eslint-config-preset
 
 ### use in config js
 
+Config list (choose one):
+- `@mutoe/eslint-config-preset-basic` (basic javascript + json + yaml lint rules)
+- `@mutoe/eslint-config-preset-ts` (support basic + typescript rules)
+- `@mutoe/eslint-config-preset-react` (support typescript + react + accessibility rules)
+- `@mutoe/eslint-config-preset-preact` (support typescript + preact + accessibility rules)
+- `@mutoe/eslint-config-preset-vue` (support typescript + vue rules)
+
 ```javascript .eslintrc.js
 module.exports = {
-  "extends": "@mutoe/eslint-config-preset"
+  "extends": [
+    "@mutoe/eslint-config-preset-react"
+  ]
+}
+```
+
+or using with typescript advanced rules (need typescript parser)
+
+> This will slow down your lint process in large project. Please use with caution.
+
+```javascript .eslintrc.js
+module.exports = {
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./your/tsconfig.json"
+  },
+  "extends": [
+    "@mutoe/eslint-config-preset-ts/with-parser",
+    "@mutoe/eslint-config-preset-react"
+  ]
 }
 ```

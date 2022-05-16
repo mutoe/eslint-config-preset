@@ -34,20 +34,20 @@ module.exports = {
     }],
     'react/self-closing-comp': 'error',
     'react/jsx-wrap-multilines': [
-        'error',
-        {
-            declaration: 'ignore',
-            assignment: 'ignore',
-            return: 'ignore',
-            arrow: 'ignore',
-            condition: 'ignore',
-            logical: 'ignore',
-            prop: 'ignore',
-        },
+      'error',
+      {
+        declaration: 'ignore',
+        assignment: 'ignore',
+        return: 'ignore',
+        arrow: 'ignore',
+        condition: 'ignore',
+        logical: 'ignore',
+        prop: 'ignore',
+      },
     ],
-    "@typescript-eslint/explicit-function-return-type": "off",
+    '@typescript-eslint/explicit-function-return-type': 'off',
 
-    "react-hooks/rules-of-hooks": "error",
+    'react-hooks/rules-of-hooks': 'error',
   },
   overrides: [
     {
@@ -67,7 +67,7 @@ module.exports = {
         'jsx-a11y/interactive-supports-focus': 'warn',
         'jsx-a11y/click-events-have-key-events': 'warn',
         'jsx-a11y/no-static-element-interactions': 'warn',
-      }
-    }
+      },
+    },
   ],
 }

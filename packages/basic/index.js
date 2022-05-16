@@ -114,10 +114,10 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-var': 'error',
     'no-extra-parens': ['error', 'all', {
-      "conditionalAssign": false,
-      'returnAssign': false,
-      "nestedBinaryExpressions": false,
-      "ignoreJSX": "multi-line",
+      conditionalAssign: false,
+      returnAssign: false,
+      nestedBinaryExpressions: false,
+      ignoreJSX: 'multi-line',
     }],
     'prefer-const': [
       'error',
