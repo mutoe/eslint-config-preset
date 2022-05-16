@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset-react",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "main": "index.js",
   "author": "mutoe",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-ts": "^0.5.3",
+    "@mutoe/eslint-config-preset-ts": "^0.6.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0"
