@@ -5,7 +5,8 @@
   "author": "mutoe",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "with-parser.js"
   ],
   "publishConfig": {
     "access": "public"
