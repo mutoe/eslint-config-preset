@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset-basic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "basic config",
   "main": "index.js",
   "author": "mutoe",
@@ -18,7 +18,7 @@
     "eslint": ">=8.15.0"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-standard": "^1.0.0",
+    "@mutoe/eslint-config-preset-standard": "^1.0.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-jsonc": "^2.2.1",
