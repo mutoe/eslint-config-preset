@@ -11,15 +11,15 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": ">=8.5.0",
+    "eslint": ">=8.15.0",
     "typescript": ">=3.9"
   },
   "dependencies": {
     "@mutoe/eslint-config-preset-basic": "^0.5.3",
-    "@typescript-eslint/eslint-plugin": "^5.8.1",
-    "@typescript-eslint/parser": "^5.8.1"
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0"
   },
   "devDependencies": {
-    "eslint": "^8.5.0"
+    "eslint": "^8.15.0"
   }
 }

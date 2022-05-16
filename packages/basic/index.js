@@ -27,6 +27,7 @@ module.exports = {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',
       rules: {
+        'semi': ['error', 'never'],
         'quotes': ['error', 'double'],
         'quote-props': ['error', 'always'],
         'comma-dangle': ['error', 'never'],
@@ -92,10 +93,18 @@ module.exports = {
     'no-unused-vars': 'warn',
     'no-alert': 'warn',
 
-    'complexity': ['warn', 11],
+    'complexity': ['warn', 10],
+    'max-lines-per-function': ['warn', 100],
+    'max-lines': ['warn', 300],
+    'max-depth': ['warn', 10],
+    'max-nested-callbacks': ['warn', 3],
+    'max-statements': ['warn', 20],
+    'max-statements-per-line': ['warn', { max: 1 }],
 
     // Off
     'import/no-unresolved': 'off',
+    'eslint-comments/disable-enable-pair': 'off',
+    'prefer-promise-reject-errors': 'off',
 
     'import/order': 'error',
     'comma-dangle': ['error', 'always-multiline'],
@@ -104,6 +113,12 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-var': 'error',
+    'no-extra-parens': ['error', 'all', {
+      "conditionalAssign": false,
+      'returnAssign': false,
+      "nestedBinaryExpressions": false,
+      "ignoreJSX": "multi-line",
+    }],
     'prefer-const': [
       'error',
       {
@@ -123,6 +138,7 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'block-scoped-var': 'error',
+    'jsx-quotes': ['error', 'prefer-single'],
 
     // // unicorns
     // // Pass error message when throwing errors
