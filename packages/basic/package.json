@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset-basic",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "basic config",
   "main": "index.js",
   "author": "mutoe",
