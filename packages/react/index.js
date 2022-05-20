@@ -53,13 +53,18 @@ module.exports = {
     {
       files: ['**/*.[tj]sx'],
       rules: {
-        'import/prefer-default-export': 'error',
         'max-lines': ['warn', 500],
         'max-lines-per-function': ['warn', 300],
       },
     },
     {
-      files: ['**/*!(.test).(t|j)s?(x)'],
+      files: ['**/*!(.test).[tj]sx'],
+      rules: {
+        'import/prefer-default-export': 'error',
+      },
+    },
+    {
+      files: ['**/*!(.test).[tj]s?(x)'],
       extends: [
         'plugin:jsx-a11y/recommended',
       ],
