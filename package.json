@@ -5,7 +5,7 @@
   "author": "mutoe",
   "private": true,
   "scripts": {
-    "release": "lerna publish --conventional-commits --yes",
+    "release": "lerna publish --conventional-commits",
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
