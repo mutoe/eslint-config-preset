@@ -51,3 +51,11 @@ module.exports = {
   ]
 }
 ```
+
+## Release
+
+```bash
+yarn release
+```
+
+This will be auto generate CHANGELOG by your commits (via --conventional-commits in lerna) and publish version to npm and git repository.
