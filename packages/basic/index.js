@@ -114,6 +114,11 @@ module.exports = {
 
     'import/order': 'error',
     'comma-dangle': ['error', 'always-multiline'],
+    'camelcase': ['error', {
+      allow: ['^UNSAFE_', '^unstable_'],
+      properties: 'never',
+      ignoreGlobals: true,
+    }],
     'quote-props': ['error', 'consistent-as-needed'],
     'indent': ['error', 2, { SwitchCase: 1 }],
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
