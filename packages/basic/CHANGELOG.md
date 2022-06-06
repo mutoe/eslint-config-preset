@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/mutoe/eslint-config-preset/compare/v1.1.2...v1.2.0) (2022-06-06)
+
+
+### Features
+
+* add 'unstable_' prefix in camelcase rule ([7f6b4e5](https://github.com/mutoe/eslint-config-preset/commit/7f6b4e5d8631b6ee0ce0c81a0d7e055b47498ca9))
+
+
+
+
+
 ## 1.1.1 (2022-05-16)
 
 
