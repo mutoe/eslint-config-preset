@@ -6,7 +6,7 @@
 
 ### `eslint-config-standard`
 [![upstream-standard-version](https://img.shields.io/npm/v/eslint-config-standard?label=upstream&style=flat-square)](https://github.com/standard/eslint-config-standard)
-![local-standard-version](https://img.shields.io/badge/local-v16.0.3-blue?style=flat-square)
+![local-standard-version](https://img.shields.io/badge/local-v17.0.0-blue?style=flat-square)
 
 ## Usage
 

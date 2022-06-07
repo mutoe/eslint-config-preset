@@ -1,8 +1,9 @@
-// copy from https://github.com/standard/eslint-config-standard/blob/74602901570eb191dec8911e65a3bdf1fa2dc218/.eslintrc.json#L1
+/* eslint-disable max-lines */
+// copy from https://github.com/standard/eslint-config-standard/blob/bcd019906cd379be04ef8e6347e108bad4fc448d/.eslintrc.json
 
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2021,
+    ecmaVersion: 2022,
     ecmaFeatures: {
       jsx: true,
     },
@@ -15,7 +16,7 @@ module.exports = {
 
   plugins: [
     'import',
-    'node',
+    'n',
     'promise',
   ],
 
@@ -232,13 +233,13 @@ module.exports = {
     'import/no-named-default': 'error',
     'import/no-webpack-loader-syntax': 'error',
 
-    'node/handle-callback-err': ['error', '^(err|error)$'],
-    'node/no-callback-literal': 'error',
-    'node/no-deprecated-api': 'error',
-    'node/no-exports-assign': 'error',
-    'node/no-new-require': 'error',
-    'node/no-path-concat': 'error',
-    'node/process-exit-as-throw': 'error',
+    'n/handle-callback-err': ['error', '^(err|error)$'],
+    'n/no-callback-literal': 'error',
+    'n/no-deprecated-api': 'error',
+    'n/no-exports-assign': 'error',
+    'n/no-new-require': 'error',
+    'n/no-path-concat': 'error',
+    'n/process-exit-as-throw': 'error',
 
     'promise/param-names': 'error',
   },
