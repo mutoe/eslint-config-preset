@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/mutoe/eslint-config-preset/compare/v1.2.1...v1.2.2) (2022-06-07)
+
+
+### Bug Fixes
+
+* override rule for test files glob mismatch issue ([9622e21](https://github.com/mutoe/eslint-config-preset/commit/9622e21ebe3d6a50eef293da03732b641fbfebde))
+
+
+
+
+
 ## [1.2.1](https://github.com/mutoe/eslint-config-preset/compare/v1.2.0...v1.2.1) (2022-06-07)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-react
