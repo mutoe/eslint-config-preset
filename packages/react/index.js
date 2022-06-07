@@ -58,13 +58,13 @@ module.exports = {
       },
     },
     {
-      files: ['**/*!(.test).[tj]sx'],
+      files: ['**/!(*.test|*.spec).[tj]sx'],
       rules: {
         'import/prefer-default-export': 'error',
       },
     },
     {
-      files: ['**/*!(.test).[tj]s?(x)'],
+      files: ['**/!(*.test|*.spec).[tj]s?(x)'],
       extends: [
         'plugin:jsx-a11y/recommended',
       ],
