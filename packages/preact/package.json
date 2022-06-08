@@ -23,7 +23,6 @@
     "eslint-plugin-jsx-a11y": "^6.5.1"
   },
   "devDependencies": {
-    "eslint": "^8.17.0",
-    "preact": "^10.7.3"
+    "eslint": "^8.17.0"
   }
 }
