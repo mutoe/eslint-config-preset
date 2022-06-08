@@ -34,7 +34,10 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'error',
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/type-annotation-spacing': 'error',
-    '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }],
+    '@typescript-eslint/member-delimiter-style': ['error', {
+      multiline: { delimiter: 'none' },
+      singleline: { delimiter: 'comma' },
+    }],
     '@typescript-eslint/consistent-type-assertions': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': ['error', {
