@@ -43,7 +43,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['*.ts?(x)'],
       rules: {
         '@typescript-eslint/explicit-function-return-type': ['error', {
           allowExpressions: true,
@@ -52,7 +52,7 @@ module.exports = {
       },
     },
     {
-      files: ['**/*.test.ts?(x)'],
+      files: ['*.{test,spec}.ts?(x)'],
       rules: {
         '@typescript-eslint/no-non-null-assertion': 'off',
       },

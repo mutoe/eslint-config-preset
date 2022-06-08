@@ -51,20 +51,20 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.[tj]sx'],
+      files: ['**/*.{js,jsx,tsx}'],
       rules: {
         'max-lines': ['warn', 500],
         'max-lines-per-function': ['warn', 300],
       },
     },
     {
-      files: ['**/!(*.test|*.spec).[tj]sx'],
+      files: ['**/!(*.test|*.spec).{js,jsx,tsx}'],
       rules: {
         'import/prefer-default-export': 'error',
       },
     },
     {
-      files: ['**/!(*.test|*.spec).[tj]s?(x)'],
+      files: ['**/!(*.test|*.spec).{js,jsx,tsx}'],
       extends: [
         'plugin:jsx-a11y/recommended',
       ],

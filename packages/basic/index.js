@@ -76,7 +76,7 @@ module.exports = {
       },
     },
     {
-      files: ['*.(test|spec).*'],
+      files: ['**/*.{test,spec}.?(c|m)[tj]s?(x)'],
       rules: {
         'prefer-arrow-callback': [
           'error',
@@ -85,8 +85,8 @@ module.exports = {
             allowUnboundThis: true,
           },
         ],
-        'max-lines-per-function': ['warn', 100],
-        'max-lines': ['warn', 500],
+        'max-lines-per-function': 'off',
+        'max-lines': 'off',
         'max-depth': ['warn', 10],
         'max-nested-callbacks': ['warn', 5],
         'max-statements': ['warn', 20],
