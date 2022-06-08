@@ -61,6 +61,7 @@ module.exports = {
       files: ['*.{test,spec}.ts?(x)'],
       rules: {
         '@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
       },
     },
   ],
