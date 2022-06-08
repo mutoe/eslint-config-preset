@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/mutoe/eslint-config-preset/compare/v1.2.3...v1.3.0) (2022-06-08)
+
+
+### Features
+
+* ignore any check in test files ([9c3d320](https://github.com/mutoe/eslint-config-preset/commit/9c3d320eeb39083548cf256e6830f5383c70825f))
+* make inline type declaration delimiter to comma style ([582987d](https://github.com/mutoe/eslint-config-preset/commit/582987dda0086e61eda36806fc815f3baccdf436))
+* update explicit-module-boundary-type rule ([f530b4a](https://github.com/mutoe/eslint-config-preset/commit/f530b4a530692513802094ab6891242c4a7178b2))
+
+
+
+
+
 ## [1.2.3](https://github.com/mutoe/eslint-config-preset/compare/v1.2.2...v1.2.3) (2022-06-08)
 
 

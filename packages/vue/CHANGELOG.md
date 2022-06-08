@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/mutoe/eslint-config-preset/compare/v1.2.3...v1.3.0) (2022-06-08)
+
+
+### Features
+
+* support vue rules ([787698d](https://github.com/mutoe/eslint-config-preset/commit/787698d16d08e421c7488c495df3c2a54a68ff58))
+
+
+
+
+
 ## [1.2.3](https://github.com/mutoe/eslint-config-preset/compare/v1.2.2...v1.2.3) (2022-06-08)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-vue
