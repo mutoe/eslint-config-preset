@@ -3,11 +3,16 @@ module.exports = {
     {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
+      parserOptions: {
+        extraFileExtensions: ['.vue'],
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
       rules: {},
     },
   ],
   extends: [
-    '@vue/eslint-config-typescript/recommended',
     '@mutoe/eslint-config-preset-ts',
     'plugin:vue/vue3-recommended',
   ],

@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "@mutoe/eslint-config-preset-ts": "^1.3.0",
-    "@vue/eslint-config-typescript": "^10.0.0",
-    "eslint-plugin-vue": "^9.1.0"
+    "eslint-plugin-vue": "^9.1.0",
+    "vue-eslint-parser": "^9.0.2"
   },
   "devDependencies": {
     "eslint": "^8.17.0"
