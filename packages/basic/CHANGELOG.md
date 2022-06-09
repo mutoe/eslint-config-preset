@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.2](https://github.com/mutoe/eslint-config-preset/compare/v1.3.1...v1.3.2) (2022-06-09)
+
+
+### Bug Fixes
+
+* disable max-statements check in test files ([b1de5a2](https://github.com/mutoe/eslint-config-preset/commit/b1de5a2d543522cab8d420a15575119d0e693e54))
+
+
+
+
+
 ## [1.2.3](https://github.com/mutoe/eslint-config-preset/compare/v1.2.2...v1.2.3) (2022-06-08)
 
 
