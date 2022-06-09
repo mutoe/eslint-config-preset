@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/mutoe/eslint-config-preset/compare/v1.3.0...v1.3.1) (2022-06-09)
+
+
+### Bug Fixes
+
+* vue no-unused-vars rule issue ([525b000](https://github.com/mutoe/eslint-config-preset/commit/525b000a9fd1ca7e5a93afadc84f3a0fc6bb08f2))
+
+
+
+
+
 # [1.3.0](https://github.com/mutoe/eslint-config-preset/compare/v1.2.3...v1.3.0) (2022-06-08)
 
 
