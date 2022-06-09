@@ -76,7 +76,7 @@ module.exports = {
       },
     },
     {
-      files: ['**/*.{test,spec}.?(c|m)[tj]s?(x)'],
+      files: ['**/*.{test,spec,cy}.?(c|m)[tj]s?(x)'],
       rules: {
         'prefer-arrow-callback': [
           'error',

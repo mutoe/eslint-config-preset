@@ -58,7 +58,7 @@ module.exports = {
       },
     },
     {
-      files: ['*.{test,spec}.ts?(x)'],
+      files: ['*.{test,spec,cy}.ts?(x)'],
       rules: {
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
