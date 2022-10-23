@@ -10,9 +10,11 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/recommended',
-    // 'plugin:unicorn/recommended',
+    'plugin:unicorn/recommended',
   ],
-  plugins: ['html'],
+  plugins: [
+    'html',
+  ],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
