@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset-ts",
-  "version": "1.4.0",
+  "version": "2.0.0-alpha.0",
   "main": "index.js",
   "author": "mutoe",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-basic": "^1.4.0",
+    "@mutoe/eslint-config-preset-basic": "^2.0.0-alpha.0",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1"
   },
