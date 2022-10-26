@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "MIT",
   "author": "mutoe",
   "private": true,
@@ -9,11 +9,8 @@
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
-    "eslint": "^8.17.0",
-    "lerna": "^5.0.0",
-    "typescript": "^4.7.3"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+    "eslint": "^8.26.0",
+    "lerna": "^6.0.1",
+    "typescript": "~4.8.4"
+  }
 }

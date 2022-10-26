@@ -15,7 +15,7 @@
 ```bash
 npm i -D eslint @mutoe/eslint-config-preset
 # or
-yarn add -D eslint @mutoe/eslint-config-preset
+pnpm add -D eslint @mutoe/eslint-config-preset
 ```
 
 ### use in config js
@@ -55,7 +55,7 @@ module.exports = {
 ## Release
 
 ```bash
-yarn release
+pnpm release
 ```
 
 This will be auto generate CHANGELOG by your commits (via --conventional-commits in lerna) and publish version to npm and git repository.
