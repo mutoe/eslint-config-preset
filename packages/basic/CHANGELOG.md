@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.1](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.0...v2.0.0-alpha.1) (2022-10-26)
+
+
+### Features
+
+* add jest config ([d3615e1](https://github.com/mutoe/eslint-config-preset/commit/d3615e156d123c66f790ca24427894cbc8a52407))
+* cleanup config of unicorn ([9e2a1d4](https://github.com/mutoe/eslint-config-preset/commit/9e2a1d445fc35a14621b9f7860cee362398881a6))
+
+
+
+
+
 # [2.0.0-alpha.0](https://github.com/mutoe/eslint-config-preset/compare/v1.4.0...v2.0.0-alpha.0) (2022-10-23)
 
 

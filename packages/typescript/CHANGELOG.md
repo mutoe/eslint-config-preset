@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.1](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.0...v2.0.0-alpha.1) (2022-10-26)
+
+
+### Features
+
+* ignore rest args any declaration ([c6a1bbf](https://github.com/mutoe/eslint-config-preset/commit/c6a1bbff961c3fa6135df4502aade7310e2060af))
+* ignore return type declaration in tests ([a3c7ffc](https://github.com/mutoe/eslint-config-preset/commit/a3c7ffcb112b75867880b97f0b0dc83051e2f85e))
+
+
+
+
+
 # [2.0.0-alpha.0](https://github.com/mutoe/eslint-config-preset/compare/v1.4.0...v2.0.0-alpha.0) (2022-10-23)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-ts
