@@ -8,8 +8,6 @@ module.exports = {
   extends: [
     '@mutoe/eslint-config-preset-standard',
     'plugin:eslint-comments/recommended',
-    'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/recommended',
     'plugin:unicorn/recommended',
   ],
   plugins: [
@@ -24,10 +22,12 @@ module.exports = {
     {
       files: ['*.yaml', '*.yml'],
       parser: 'yaml-eslint-parser',
+      extends: ['plugin:yml/recommended'],
     },
     {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',
+      extends: ['plugin:jsonc/recommended-with-jsonc'],
       rules: {
         'semi': ['error', 'never'],
         'quotes': ['error', 'double'],
@@ -75,6 +75,12 @@ module.exports = {
             order: { type: 'asc' },
           },
         ],
+      },
+    },
+    {
+      files: ['**/tsconfig*.json'],
+      rules: {
+        'no-multi-spaces': 'off',
       },
     },
     {
