@@ -45,6 +45,12 @@ module.exports = {
     }],
     'no-void': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
+    '@typescript-eslint/no-namespace': ['error', {
+      allowDeclarations: true,
+    }],
+    '@typescript-eslint/no-explicit-any': ['error', {
+      ignoreRestArgs: true,
+    }],
   },
   overrides: [
     {
