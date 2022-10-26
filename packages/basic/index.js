@@ -83,6 +83,12 @@ module.exports = {
       },
     },
     {
+      files: ['**/.*rc.js'],
+      rules: {
+        'unicorn/prefer-module': 'off',
+      },
+    },
+    {
       files: ['*.{test,spec,cy}.?(c|m)[tj]s?(x)', '**/*.snap'],
       extends: [
         'plugin:jest/recommended',
