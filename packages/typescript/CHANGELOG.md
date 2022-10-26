@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.3](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.2...v2.0.0-alpha.3) (2022-10-26)
+
+
+### Bug Fixes
+
+* json parser conflict with typescript parser ([4502870](https://github.com/mutoe/eslint-config-preset/commit/4502870b91eaa0ece1933f71a5eb3bcb4d8f0d36))
+
+
+
+
+
 # [2.0.0-alpha.2](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.1...v2.0.0-alpha.2) (2022-10-26)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-ts
