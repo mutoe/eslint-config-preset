@@ -25,7 +25,7 @@ module.exports = {
       extends: ['plugin:yml/recommended'],
     },
     {
-      files: ['*.json', '*.json5'],
+      files: ['*.json', '*.json5', '*.jsonc', '.swcrc'],
       parser: 'jsonc-eslint-parser',
       extends: ['plugin:jsonc/recommended-with-jsonc'],
       rules: {
@@ -37,10 +37,9 @@ module.exports = {
     },
     {
       files: ['package.json'],
-      parser: 'jsonc-eslint-parser',
       rules: {
         'jsonc/sort-keys': [
-          'error',
+          'warn',
           {
             pathPattern: '^$',
             order: [
@@ -78,13 +77,13 @@ module.exports = {
       },
     },
     {
-      files: ['**/tsconfig*.json'],
+      files: ['**/tsconfig*.json', '.swcrc'],
       rules: {
         'no-multi-spaces': 'off',
       },
     },
     {
-      files: ['**/*.{test,spec,cy}.?(c|m)[tj]s?(x)', '**/*.snap'],
+      files: ['*.{test,spec,cy}.?(c|m)[tj]s?(x)', '**/*.snap'],
       extends: [
         'plugin:jest/recommended',
         'plugin:jest/style',
