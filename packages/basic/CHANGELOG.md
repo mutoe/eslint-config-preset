@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.4](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.3...v2.0.0-alpha.4) (2022-10-27)
+
+
+### Bug Fixes
+
+* man-lines etc. should not apply for non-js files ([e791d71](https://github.com/mutoe/eslint-config-preset/commit/e791d711498328a9dcb126db91bf724071e18f1b))
+
+
+### Features
+
+* add basic rules for all files ([1e7116c](https://github.com/mutoe/eslint-config-preset/commit/1e7116c41d403b25068e1d10fe41a116afde5b9c))
+
+
+
+
+
 # [2.0.0-alpha.3](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.2...v2.0.0-alpha.3) (2022-10-26)
 
 

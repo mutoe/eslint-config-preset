@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset-vue",
-  "version": "2.0.0-alpha.3",
+  "version": "2.0.0-alpha.4",
   "main": "index.js",
   "author": "mutoe",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-ts": "^2.0.0-alpha.3",
+    "@mutoe/eslint-config-preset-ts": "^2.0.0-alpha.4",
     "eslint-plugin-vue": "^9.1.0",
     "vue-eslint-parser": "^9.0.2"
   },
