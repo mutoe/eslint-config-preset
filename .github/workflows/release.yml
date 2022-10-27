@@ -15,11 +15,14 @@ jobs:
     env:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: | 
           git config --global user.email "noreply@github.com"
           git config --global user.name "github-actions"
           npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
 
-      - run: pnpm bootstrap
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: 7.14.0
+
       - run: pnpm release --no-verify-access
