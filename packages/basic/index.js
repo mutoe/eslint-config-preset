@@ -7,8 +7,6 @@ module.exports = {
   },
   extends: [
     '@mutoe/eslint-config-preset-standard',
-    'plugin:eslint-comments/recommended',
-    'plugin:unicorn/recommended',
   ],
   plugins: [
     'html',
@@ -84,6 +82,10 @@ module.exports = {
     },
     {
       files: ['*.?(c|m)[tj]s?(x)'],
+      extends: [
+        'plugin:eslint-comments/recommended',
+        'plugin:unicorn/recommended',
+      ],
       rules: {
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -191,5 +193,11 @@ module.exports = {
       },
     },
   ],
-  rules: {},
+  rules: {
+    'unicode-bom': ['error', 'never'],
+    'indent': ['error', 2],
+    'eol-last': ['error', 'always'],
+    'linebreak-style': ['error', 'unix'],
+    'no-trailing-spaces': ['error'],
+  },
 }
