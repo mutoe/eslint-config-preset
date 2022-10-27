@@ -1,8 +1,8 @@
 /** Basic config */
 module.exports = {
   env: {
-    es6: true,
     browser: true,
+    es6: true,
     node: true,
   },
   extends: [
@@ -29,10 +29,10 @@ module.exports = {
       parser: 'jsonc-eslint-parser',
       extends: ['plugin:jsonc/recommended-with-jsonc'],
       rules: {
-        'semi': ['error', 'never'],
-        'quotes': ['error', 'double'],
-        'quote-props': ['error', 'always'],
         'comma-dangle': ['error', 'never'],
+        'quote-props': ['error', 'always'],
+        'quotes': ['error', 'double'],
+        'semi': ['error', 'never'],
       },
     },
     {
@@ -83,6 +83,49 @@ module.exports = {
       },
     },
     {
+      files: ['*.?(c|m)[tj]s?(x)'],
+      rules: {
+        'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+
+        // off
+        'eslint-comments/disable-enable-pair': 'off',
+        'import/no-unresolved': 'off',
+        'prefer-promise-reject-errors': 'off',
+        'unicorn/no-null': 'off',
+        'unicorn/prefer-top-level-await': 'off',
+        'unicorn/prevent-abbreviations': 'off',
+
+        // warning
+        'no-alert': 'warn',
+        'no-unused-vars': 'warn',
+        'complexity': ['warn', 10],
+        'max-depth': ['warn', 10],
+        'max-lines': ['warn', 300],
+        'max-lines-per-function': ['warn', 100],
+        'max-nested-callbacks': ['warn', 3],
+        'max-statements': ['warn', 20],
+        'max-statements-per-line': ['warn', { max: 1 }],
+
+        // error
+        'block-scoped-var': 'error',
+        'camelcase': ['error', { allow: ['^UNSAFE_', '^unstable_'], properties: 'never', ignoreGlobals: true }],
+        'comma-dangle': ['error', 'always-multiline'],
+        'import/order': 'error',
+        'indent': ['error', 2, { SwitchCase: 1 }],
+        'jsx-quotes': ['error', 'prefer-single'],
+        'no-extra-parens': ['error', 'all', { conditionalAssign: false, returnAssign: false, nestedBinaryExpressions: false, ignoreJSX: 'multi-line' }],
+        'no-var': 'error',
+        'object-shorthand': ['error', 'always', { ignoreConstructors: false, avoidQuotes: true }],
+        'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: true }],
+        'prefer-rest-params': 'error',
+        'prefer-spread': 'error',
+        'prefer-template': 'error',
+        'quote-props': ['error', 'consistent-as-needed'],
+        'unicorn/consistent-function-scoping': ['error', { checkArrowFunctions: false }],
+      },
+    },
+    {
       files: ['**/.*rc.js'],
       rules: {
         'unicorn/prefer-module': 'off',
@@ -95,6 +138,15 @@ module.exports = {
         'plugin:jest/style',
       ],
       rules: {
+        'max-lines-per-function': 'off',
+        'max-lines': 'off',
+        'max-depth': ['warn', 10],
+        'max-nested-callbacks': ['warn', 5],
+        'max-statements': 'off',
+        'max-statements-per-line': 'off',
+
+        // off
+        'n/no-callback-literal': 'off',
         'prefer-arrow-callback': [
           'error',
           {
@@ -102,20 +154,15 @@ module.exports = {
             allowUnboundThis: true,
           },
         ],
-        'max-lines-per-function': 'off',
-        'max-lines': 'off',
-        'max-depth': ['warn', 10],
-        'max-nested-callbacks': ['warn', 5],
-        'max-statements': 'off',
-        'max-statements-per-line': 'off',
-        'n/no-callback-literal': 'off',
 
+        // error
         'jest/prefer-hooks-on-top': 'error',
         'jest/prefer-todo': 'error',
         'jest/require-top-level-describe': 'error',
         'jest/no-test-return-statement': 'error',
         'jest/no-duplicate-hooks': 'error',
 
+        // warn
         'jest/max-expects': ['warn', { max: 6 }],
         'jest/consistent-test-it': 'warn',
         'jest/prefer-each': 'warn',
@@ -144,72 +191,5 @@ module.exports = {
       },
     },
   ],
-  rules: {
-    // Warning
-    'no-unused-vars': 'warn',
-    'no-alert': 'warn',
-
-    'complexity': ['warn', 10],
-    'max-lines-per-function': ['warn', 100],
-    'max-lines': ['warn', 300],
-    'max-depth': ['warn', 10],
-    'max-nested-callbacks': ['warn', 3],
-    'max-statements': ['warn', 20],
-    'max-statements-per-line': ['warn', { max: 1 }],
-
-    // Off
-    'import/no-unresolved': 'off',
-    'eslint-comments/disable-enable-pair': 'off',
-    'prefer-promise-reject-errors': 'off',
-
-    'import/order': 'error',
-    'comma-dangle': ['error', 'always-multiline'],
-    'camelcase': ['error', {
-      allow: ['^UNSAFE_', '^unstable_'],
-      properties: 'never',
-      ignoreGlobals: true,
-    }],
-    'quote-props': ['error', 'consistent-as-needed'],
-    'indent': ['error', 2, { SwitchCase: 1 }],
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-var': 'error',
-    'no-extra-parens': ['error', 'all', {
-      conditionalAssign: false,
-      returnAssign: false,
-      nestedBinaryExpressions: false,
-      ignoreJSX: 'multi-line',
-    }],
-    'prefer-const': [
-      'error',
-      {
-        destructuring: 'any',
-        ignoreReadBeforeAssign: true,
-      },
-    ],
-    'object-shorthand': [
-      'error',
-      'always',
-      {
-        ignoreConstructors: false,
-        avoidQuotes: true,
-      },
-    ],
-    'prefer-rest-params': 'error',
-    'prefer-spread': 'error',
-    'prefer-template': 'error',
-    'block-scoped-var': 'error',
-    'jsx-quotes': ['error', 'prefer-single'],
-
-    // unicorns
-    'unicorn/prevent-abbreviations': 'off',
-    'unicorn/prefer-top-level-await': 'off',
-    'unicorn/no-null': 'off',
-    'unicorn/consistent-function-scoping': [
-      'error',
-      {
-        checkArrowFunctions: false,
-      },
-    ],
-  },
+  rules: {},
 }
