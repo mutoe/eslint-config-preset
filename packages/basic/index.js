@@ -119,7 +119,7 @@ module.exports = {
         'no-extra-parens': ['error', 'all', { conditionalAssign: false, returnAssign: false, nestedBinaryExpressions: false, ignoreJSX: 'multi-line' }],
         'no-var': 'error',
         'object-shorthand': ['error', 'always', { ignoreConstructors: false, avoidQuotes: true }],
-        'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: true }],
+        'prefer-const': ['error', { destructuring: 'all', ignoreReadBeforeAssign: true }],
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
         'prefer-template': 'error',
