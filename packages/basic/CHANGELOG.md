@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.6](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.5...v2.0.0-alpha.6) (2022-10-31)
+
+
+### Bug Fixes
+
+* revert mistake delete unicorn ([0d9aad3](https://github.com/mutoe/eslint-config-preset/commit/0d9aad3cd77dd4db3d65db0b270f36d268c5f928))
+
+
+
+
+
 # [2.0.0-alpha.5](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.4...v2.0.0-alpha.5) (2022-10-31)
 
 
