@@ -83,7 +83,7 @@ module.exports = {
     {
       files: ['*.?(c|m)[tj]s?(x)'],
       extends: [
-        'plugin:eslint-comments/recommended',
+        'plugin:unicorn/recommended',
       ],
       rules: {
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
