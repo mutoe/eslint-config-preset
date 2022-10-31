@@ -84,19 +84,18 @@ module.exports = {
       files: ['*.?(c|m)[tj]s?(x)'],
       extends: [
         'plugin:eslint-comments/recommended',
-        'plugin:unicorn/recommended',
       ],
       rules: {
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
         // off
-        'eslint-comments/disable-enable-pair': 'off',
         'import/no-unresolved': 'off',
         'prefer-promise-reject-errors': 'off',
         'unicorn/no-null': 'off',
         'unicorn/prefer-top-level-await': 'off',
         'unicorn/prevent-abbreviations': 'off',
+        'unicorn/no-abusive-eslint-disable': 'off',
 
         // warning
         'no-alert': 'warn',
