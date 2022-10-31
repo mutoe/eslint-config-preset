@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-alpha.5](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.4...v2.0.0-alpha.5) (2022-10-31)
+
+
+### Features
+
+* prefer-const destructuring set to all ([7eb5979](https://github.com/mutoe/eslint-config-preset/commit/7eb59793c56370fbfc623a3ac053d29b31ea41d7))
+* remove eslint-comment relative rules ([6e1a9dd](https://github.com/mutoe/eslint-config-preset/commit/6e1a9dd8df3fc2d4da88b637d89dda71817f200d))
+
+
+
+
+
 # [2.0.0-alpha.4](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.3...v2.0.0-alpha.4) (2022-10-27)
 
 
