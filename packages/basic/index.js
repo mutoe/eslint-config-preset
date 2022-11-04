@@ -96,6 +96,8 @@ module.exports = {
         'unicorn/prefer-top-level-await': 'off',
         'unicorn/prevent-abbreviations': 'off',
         'unicorn/no-abusive-eslint-disable': 'off',
+        'unicorn/text-encoding-identifier-case': 'off',
+        'unicorn/no-useless-undefined': 'off',
 
         // warning
         'no-alert': 'warn',
@@ -111,7 +113,6 @@ module.exports = {
         // error
         'block-scoped-var': 'error',
         'camelcase': ['error', { allow: ['^UNSAFE_', '^unstable_'], properties: 'never', ignoreGlobals: true }],
-        'comma-dangle': ['error', 'always-multiline'],
         'import/order': 'error',
         'indent': ['error', 2, { SwitchCase: 1 }],
         'jsx-quotes': ['error', 'prefer-single'],
@@ -148,6 +149,8 @@ module.exports = {
 
         // off
         'n/no-callback-literal': 'off',
+        'jest/max-expects': 'off',
+        'jest/prefer-to-be': 'off',
         'prefer-arrow-callback': [
           'error',
           {
@@ -164,15 +167,14 @@ module.exports = {
         'jest/no-duplicate-hooks': 'error',
 
         // warn
-        'jest/max-expects': ['warn', { max: 6 }],
         'jest/consistent-test-it': 'warn',
         'jest/prefer-each': 'warn',
         'jest/prefer-equality-matcher': 'warn',
+        'jest/prefer-called-with': 'warn',
         'jest/prefer-comparison-matcher': 'warn',
         'jest/prefer-mock-promise-shorthand': 'warn',
         'jest/prefer-snapshot-hint': 'warn',
         'jest/prefer-spy-on': 'warn',
-        'jest/prefer-called-with': 'warn',
         'jest/no-conditional-in-test': 'warn',
         'jest/no-restricted-matchers': ['warn', {
           'not.toHaveBeenCalled': '`not.toHaveBeenCalled` are not always correct. Consider that it cannot be called due to a program error.\nYou should assert that what the program did.',
@@ -198,5 +200,6 @@ module.exports = {
     'eol-last': ['error', 'always'],
     'linebreak-style': ['error', 'unix'],
     'no-trailing-spaces': ['error'],
+    'comma-dangle': ['error', 'always-multiline'],
   },
 }
