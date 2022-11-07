@@ -9,7 +9,6 @@ module.exports = {
           {
             pathPattern: '^$',
             order: [
-              'private',
               'name',
               'author',
               'version',
@@ -17,6 +16,8 @@ module.exports = {
               'keywords',
               'license',
               'repository',
+              'private',
+              'publishConfig',
               'funding',
               'packageManager',
               'workspaces',
