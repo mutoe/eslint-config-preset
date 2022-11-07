@@ -70,6 +70,7 @@ module.exports = {
               'dependencies',
               'devDependencies',
               'prettier',
+              'changelog',
               'eslintConfig',
               'jest',
             ],
