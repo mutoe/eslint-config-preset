@@ -59,7 +59,7 @@ module.exports = {
               'scripts',
               'gitHooks',
               'husky',
-              'simple-git-hook',
+              'simple-git-hooks',
               'lint-staged',
               'peerDependencies',
               'peerDependenciesMeta',
