@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0...v2.0.1) (2022-11-07)
+
+
+### Features
+
+* add more git hooks order ([81c0852](https://github.com/mutoe/eslint-config-preset/commit/81c08526875f39935bfaa6bafee22ff28e8e4488))
+
+
+
+
+
 # [2.0.0](https://github.com/mutoe/eslint-config-preset/compare/v2.0.0-alpha.6...v2.0.0) (2022-11-04)
 
 
