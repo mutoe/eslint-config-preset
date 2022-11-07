@@ -41,6 +41,7 @@ module.exports = {
           {
             pathPattern: '^$',
             order: [
+              'private',
               'name',
               'author',
               'version',
@@ -49,6 +50,9 @@ module.exports = {
               'license',
               'repository',
               'funding',
+              'packageManager',
+              'workspaces',
+              'engines',
               'type',
               'files',
               'exports',
@@ -67,6 +71,7 @@ module.exports = {
               'devDependencies',
               'prettier',
               'eslintConfig',
+              'jest',
             ],
           },
           {
