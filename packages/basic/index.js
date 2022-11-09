@@ -83,6 +83,7 @@ module.exports = {
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
         'prefer-template': 'error',
+        'operator-linebreak': ['error', 'before'],
         'quote-props': ['error', 'consistent-as-needed'],
         'unicorn/consistent-function-scoping': ['error', { checkArrowFunctions: false }],
       },
