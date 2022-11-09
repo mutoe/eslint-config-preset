@@ -16,6 +16,7 @@ module.exports = {
               'keywords',
               'license',
               'repository',
+              'bugs',
               'private',
               'publishConfig',
               'funding',
