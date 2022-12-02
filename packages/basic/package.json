@@ -8,7 +8,8 @@
     "access": "public"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "package-json.js"
   ],
   "main": "index.js",
   "scripts": {
