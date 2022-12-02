@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/mutoe/eslint-config-preset/compare/v2.1.0...v2.1.1) (2022-12-02)
+
+
+### Bug Fixes
+
+* package-json not export to npm ([e3033bf](https://github.com/mutoe/eslint-config-preset/commit/e3033bfe1ec1d92308d181546ca10214142a4984))
+
+
+
+
+
 # [2.1.0](https://github.com/mutoe/eslint-config-preset/compare/v2.0.3...v2.1.0) (2022-12-02)
 
 
