@@ -9,9 +9,9 @@
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
-    "@mutoe/eslint-config-preset-basic": "workspace:^2.0.0-alpha.1",
-    "eslint": "^8.26.0",
-    "lerna": "^6.0.1",
-    "typescript": "~4.8.4"
+    "@mutoe/eslint-config-preset-basic": "workspace:^2.0.3",
+    "eslint": "^8.28.0",
+    "lerna": "^6.1.0",
+    "typescript": "~4.9.3"
   }
 }
