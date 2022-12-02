@@ -1,0 +1,26 @@
+{
+  "name": "@mutoe/eslint-config-preset-jest",
+  "author": "mutoe <imutoe@gmail.com>",
+  "version": "2.0.3",
+  "description": "eslint jest config",
+  "homepage": "https://github.com/mutoe/eslint-config-preset#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "@mutoe/eslint-config-preset-basic": "workspace:^2.0.3",
+    "eslint": "^8.17.0",
+    "jest": "^27 || ^28 || ^29"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^27.1.6"
+  }
+}
