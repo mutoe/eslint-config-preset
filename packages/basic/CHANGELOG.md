@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/mutoe/eslint-config-preset/compare/v2.0.3...v2.1.0) (2022-12-02)
+
+
+### Features
+
+* add bugs to package-json order ([fbbde5d](https://github.com/mutoe/eslint-config-preset/commit/fbbde5dca0c87106cfda808bf803c8018cf5719d))
+* add changelog property to package json ([60187cf](https://github.com/mutoe/eslint-config-preset/commit/60187cff87129795569d2347288d8a40ce0d00d8))
+* add publishConfig to package-json order ([988bc3e](https://github.com/mutoe/eslint-config-preset/commit/988bc3eb14097a75dcdbcabec51e4450bde474b2))
+* change operator-linebreak to before ([43352da](https://github.com/mutoe/eslint-config-preset/commit/43352dacaae82e05ed7c0a5a16edb21085c9fdde))
+* split jest package ([521ca14](https://github.com/mutoe/eslint-config-preset/commit/521ca1411ba8543c7f0ba20633842b551af6db96))
+
+
+
+
+
 ## [2.0.3](https://github.com/mutoe/eslint-config-preset/compare/v2.0.2...v2.0.3) (2022-11-07)
 
 

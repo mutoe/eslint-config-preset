@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/mutoe/eslint-config-preset/compare/v2.0.3...v2.1.0) (2022-12-02)
+
+**Note:** Version bump only for package @mutoe/eslint-config-preset-preact
+
+
+
+
+
 ## [2.0.3](https://github.com/mutoe/eslint-config-preset/compare/v2.0.2...v2.0.3) (2022-11-07)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-preact
