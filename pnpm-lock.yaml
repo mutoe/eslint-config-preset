@@ -43,8 +43,8 @@ importers:
 
   packages/output:
     specifiers:
-      '@mutoe/eslint-config-preset-react': ^2.1.1
-      '@mutoe/eslint-config-preset-vue': ^2.1.1
+      '@mutoe/eslint-config-preset-react': ^2.1.2
+      '@mutoe/eslint-config-preset-vue': ^2.1.2
       eslint: ^8.17.0
     dependencies:
       '@mutoe/eslint-config-preset-react': link:../react
@@ -54,7 +54,7 @@ importers:
 
   packages/preact:
     specifiers:
-      '@mutoe/eslint-config-preset-ts': ^2.1.1
+      '@mutoe/eslint-config-preset-ts': ^2.1.2
       eslint: ^8.17.0
       eslint-config-preact: ^1.3.0
       eslint-plugin-jsx-a11y: ^6.5.1
@@ -67,7 +67,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@mutoe/eslint-config-preset-ts': ^2.1.1
+      '@mutoe/eslint-config-preset-ts': ^2.1.2
       eslint: ^8.17.0
       eslint-config-preact: ^1.3.0
       eslint-plugin-jsx-a11y: ^6.5.1
@@ -97,7 +97,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@mutoe/eslint-config-preset-basic': ^2.1.1
+      '@mutoe/eslint-config-preset-basic': ^2.1.2
       '@typescript-eslint/eslint-plugin': ^5.27.1
       '@typescript-eslint/parser': ^5.27.1
       eslint: ^8.17.0
@@ -110,7 +110,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@mutoe/eslint-config-preset-ts': ^2.1.1
+      '@mutoe/eslint-config-preset-ts': ^2.1.2
       eslint: ^8.17.0
       eslint-plugin-vue: ^9.1.0
       vue-eslint-parser: ^9.0.2

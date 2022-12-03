@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.2](https://github.com/mutoe/eslint-config-preset/compare/v2.1.1...v2.1.2) (2022-12-03)
+
+
+### Bug Fixes
+
+* test file max-lines-per-function rule ([c8754f1](https://github.com/mutoe/eslint-config-preset/commit/c8754f154b28be8b4c5c407eb294e5b82ab57b5a))
+* turn off unicorn prefer-ternary and filename-case rules ([163359f](https://github.com/mutoe/eslint-config-preset/commit/163359f73fc939f7d2c4d6cfabf5572ec456a8d4))
+
+
+
+
+
 ## [2.1.1](https://github.com/mutoe/eslint-config-preset/compare/v2.1.0...v2.1.1) (2022-12-02)
 
 
