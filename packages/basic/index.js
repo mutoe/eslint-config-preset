@@ -95,17 +95,20 @@ module.exports = {
       },
     },
     {
-      files: ['*.cy.?(c|m)[tj]s?(x)'],
+      files: ['*.{test,spec,cy}.?(c|m)[tj]s?(x)'],
       rules: {
+        // off
         'max-lines-per-function': 'off',
         'max-lines': 'off',
-        'max-depth': ['warn', 10],
-        'max-nested-callbacks': ['warn', 5],
         'max-statements': 'off',
         'max-statements-per-line': 'off',
-
-        // off
         'n/no-callback-literal': 'off',
+
+        // warn
+        'max-depth': ['warn', 10],
+        'max-nested-callbacks': ['warn', 5],
+
+        // error
         'prefer-arrow-callback': [
           'error',
           {
