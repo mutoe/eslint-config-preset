@@ -54,10 +54,12 @@ module.exports = {
         'prefer-promise-reject-errors': 'off',
         'unicorn/no-null': 'off',
         'unicorn/prefer-top-level-await': 'off',
+        'unicorn/prefer-ternary': 'off',
         'unicorn/prevent-abbreviations': 'off',
         'unicorn/no-abusive-eslint-disable': 'off',
         'unicorn/text-encoding-identifier-case': 'off',
         'unicorn/no-useless-undefined': 'off',
+        'unicorn/filename-case': 'off',
 
         // warning
         'no-alert': 'warn',
