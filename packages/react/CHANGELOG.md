@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/mutoe/eslint-config-preset/compare/v2.1.2...v2.2.0) (2023-01-29)
+
+
+### Bug Fixes
+
+* explicit-module-boundary-types not include hooks and function declaration in object ([f6e2dfd](https://github.com/mutoe/eslint-config-preset/commit/f6e2dfd95e5700c1ddfcb2a1998b8f14cd8c8140))
+
+
+
+
+
 ## [2.1.2](https://github.com/mutoe/eslint-config-preset/compare/v2.1.1...v2.1.2) (2022-12-03)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-react
