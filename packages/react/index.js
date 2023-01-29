@@ -58,6 +58,12 @@ module.exports = {
       },
     },
     {
+      files: ['**/use*.{js,jsx,tsx}'],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+      },
+    },
+    {
       files: ['**/!(*.test|*.spec).{js,jsx,tsx}'],
       rules: {
         'import/prefer-default-export': 'error',
