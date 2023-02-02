@@ -5,6 +5,12 @@ module.exports = {
     es6: true,
     node: true,
   },
+  ignorePatterns: [
+    'node_modules/',
+    '.husky/_/',
+    'pnpm-lock.yaml',
+    'package-lock.json',
+  ],
   extends: [
     '@mutoe/eslint-config-preset-standard',
     require.resolve('./package-json'),
