@@ -60,6 +60,7 @@ module.exports = {
         'unicorn/text-encoding-identifier-case': 'off',
         'unicorn/no-useless-undefined': 'off',
         'unicorn/filename-case': 'off',
+        'unicorn/consistent-destructuring': 'off',
 
         // warning
         'no-alert': 'warn',
