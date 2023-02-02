@@ -2,7 +2,7 @@ module.exports = {
   extends: ['@mutoe/eslint-config-preset-basic'],
   overrides: [
     {
-      files: ['*.?(m|c)[tj]s?(x)'],
+      files: ['*.?(m|c)ts?(x)', '*.(vue|svelte)'],
       extends: ['plugin:@typescript-eslint/recommended'],
       rules: {
         'indent': 'off',
