@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/mutoe/eslint-config-preset/compare/v2.2.0...v2.3.0) (2023-02-02)
+
+
+### Features
+
+* ignore common generated files ([184d99e](https://github.com/mutoe/eslint-config-preset/commit/184d99ebc48139a8db76b507f3496849cdc46e07))
+* misc update ([c3602bb](https://github.com/mutoe/eslint-config-preset/commit/c3602bbf88149af99404b6228bc8abd17add934d))
+
+
+
+
+
 ## [2.1.2](https://github.com/mutoe/eslint-config-preset/compare/v2.1.1...v2.1.2) (2022-12-03)
 
 

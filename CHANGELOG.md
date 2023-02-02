@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/mutoe/eslint-config-preset/compare/v2.2.0...v2.3.0) (2023-02-02)
+
+
+### Bug Fixes
+
+* typescript rules ignore js files ([f62cca5](https://github.com/mutoe/eslint-config-preset/commit/f62cca583c97dab5c19be46f0a8675403786bbb1))
+* vue rules with setup sugar ([3f3f2ea](https://github.com/mutoe/eslint-config-preset/commit/3f3f2ea34fa1ba3c0e9a7a4007a70878bf6bc50a))
+
+
+### Features
+
+* add vue a11y rules ([36231ba](https://github.com/mutoe/eslint-config-preset/commit/36231ba4dfa043464e0b402eb7b2361df2cd9a14))
+* ignore common generated files ([184d99e](https://github.com/mutoe/eslint-config-preset/commit/184d99ebc48139a8db76b507f3496849cdc46e07))
+* misc update ([c3602bb](https://github.com/mutoe/eslint-config-preset/commit/c3602bbf88149af99404b6228bc8abd17add934d))
+
+
+
+
+
 # [2.2.0](https://github.com/mutoe/eslint-config-preset/compare/v2.1.2...v2.2.0) (2023-01-29)
 
 
