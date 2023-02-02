@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: false,
+  },
   parser: '@typescript-eslint/parser',
   extends: [
     'preact',

@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: false,
+  },
   extends: [
     '@mutoe/eslint-config-preset-ts',
     'plugin:react/recommended',
