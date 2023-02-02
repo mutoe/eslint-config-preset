@@ -1,23 +1,23 @@
 {
   "name": "@mutoe/eslint-config-preset-vue",
-  "version": "2.2.0",
-  "main": "index.js",
   "author": "mutoe",
+  "version": "2.2.0",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
-  "peerDependencies": {
-    "eslint": "^8.17.0",
-    "vue": "^3"
-  },
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8",
+    "vue": "^3"
+  },
   "dependencies": {
     "@mutoe/eslint-config-preset-ts": "^2.2.0",
-    "eslint-plugin-vue": "^9.1.0",
-    "vue-eslint-parser": "^9.0.2"
+    "eslint-plugin-vue": "^9.9.0",
+    "vue-eslint-parser": "^9.1.0"
   },
   "devDependencies": {
     "eslint": "^8.17.0"
