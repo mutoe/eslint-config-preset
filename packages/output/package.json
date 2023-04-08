@@ -1,6 +1,6 @@
 {
   "name": "@mutoe/eslint-config-preset",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "lint preset",
   "main": "index.js",
   "author": "mutoe",
@@ -18,9 +18,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-react": "^2.3.0",
-    "@mutoe/eslint-config-preset-vue": "^2.3.0",
-    "@mutoe/eslint-config-preset-jest": "^2.1.0"
+    "@mutoe/eslint-config-preset-jest": "^2.4.0",
+    "@mutoe/eslint-config-preset-react": "^2.4.0",
+    "@mutoe/eslint-config-preset-vue": "^2.4.0"
   },
   "devDependencies": {
     "eslint": "^8.38.0"
