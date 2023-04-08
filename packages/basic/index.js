@@ -34,6 +34,7 @@ module.exports = {
       parser: 'jsonc-eslint-parser',
       extends: ['plugin:jsonc/recommended-with-jsonc'],
       rules: {
+        'jsonc/auto': 'error',
         'comma-dangle': ['error', 'never'],
         'quote-props': ['error', 'always'],
         'quotes': ['error', 'double'],

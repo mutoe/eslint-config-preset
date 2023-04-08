@@ -4,6 +4,24 @@ module.exports = {
       files: ['package.json'],
       parser: 'jsonc-eslint-parser',
       rules: {
+        'jsonc/array-bracket-newline': [
+          'error',
+          {
+            multiline: true,
+            minItems: 0,
+          },
+        ],
+        'jsonc/array-element-newline': ['error', 'always'],
+        'jsonc/object-curly-newline': ['error', 'always'],
+        'jsonc/object-property-newline': 'error',
+        'jsonc/sort-array-values': ['error', {
+          pathPattern: '^files$',
+          order: [
+            { valuePattern: 'index.*' },
+            { valuePattern: 'main.*' },
+            { order: { type: 'asc' } },
+          ],
+        }],
         'jsonc/sort-keys': [
           'warn',
           {
@@ -11,13 +29,13 @@ module.exports = {
             order: [
               'name',
               'author',
+              'private',
               'version',
               'description',
               'keywords',
               'license',
               'repository',
               'bugs',
-              'private',
               'publishConfig',
               'funding',
               'packageManager',
@@ -37,10 +55,12 @@ module.exports = {
               'lint-staged',
               'peerDependencies',
               'peerDependenciesMeta',
+              'bundledDependencies',
               'dependencies',
+              'optionalDependencies',
               'devDependencies',
-              'prettier',
               'changelog',
+              'prettier',
               'eslintConfig',
               'jest',
             ],
