@@ -1,7 +1,7 @@
 {
   "name": "@mutoe/eslint-config-preset-vue",
   "author": "mutoe",
-  "version": "2.4.2",
+  "version": "3.0.0",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -15,7 +15,7 @@
     "vue": "^3"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-ts": "^2.4.2",
+    "@mutoe/eslint-config-preset-ts": "^3.0.0",
     "eslint-plugin-vue": "^9.10.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
     "vue-eslint-parser": "^9.1.1"

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/mutoe/eslint-config-preset/compare/v2.4.2...v3.0.0) (2023-04-08)
+
+
+### Features
+
+* [BREAK CHANGE] support import sort ([b619a42](https://github.com/mutoe/eslint-config-preset/commit/b619a42a1b28b82b19f5c13b8a50db63b6dbe99c))
+
+
+
+
+
 ## [2.4.2](https://github.com/mutoe/eslint-config-preset/compare/v2.4.1...v2.4.2) (2023-04-08)
 
 
