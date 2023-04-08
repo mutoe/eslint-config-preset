@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.2](https://github.com/mutoe/eslint-config-preset/compare/v2.4.1...v2.4.2) (2023-04-08)
+
+
+### Bug Fixes
+
+* optimize package.json lint rules ([0969799](https://github.com/mutoe/eslint-config-preset/commit/0969799e595ebe1781e708609f9279f0cbba17b8))
+
+
+
+
+
 ## [2.4.1](https://github.com/mutoe/eslint-config-preset/compare/v2.4.0...v2.4.1) (2023-04-08)
 
 
