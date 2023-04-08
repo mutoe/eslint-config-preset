@@ -63,7 +63,7 @@ importers:
   packages/output:
     dependencies:
       '@mutoe/eslint-config-preset-jest':
-        specifier: ^2.4.0
+        specifier: ^2.4.1
         version: link:../jest
       '@mutoe/eslint-config-preset-react':
         specifier: ^2.4.0

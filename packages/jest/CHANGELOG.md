@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.1](https://github.com/mutoe/eslint-config-preset/compare/v2.4.0...v2.4.1) (2023-04-08)
+
+
+### Bug Fixes
+
+* consider the e2e-spec file as a test file as well ([b5dafd9](https://github.com/mutoe/eslint-config-preset/commit/b5dafd92ae24384526933e7684f8d82b7d3a24c4))
+
+
+
+
+
 # [2.4.0](https://github.com/mutoe/eslint-config-preset/compare/v2.3.0...v2.4.0) (2023-04-08)
 
 
