@@ -12,16 +12,17 @@
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": "^8.17.0"
+    "eslint": "^8"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "@mutoe/eslint-config-preset-react": "^2.3.0",
-    "@mutoe/eslint-config-preset-vue": "^2.3.0"
+    "@mutoe/eslint-config-preset-vue": "^2.3.0",
+    "@mutoe/eslint-config-preset-jest": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.17.0"
+    "eslint": "^8.38.0"
   }
 }
