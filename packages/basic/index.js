@@ -51,12 +51,14 @@ module.exports = {
       files: ['*.?(c|m)[tj]s?(x)'],
       extends: [
         'plugin:unicorn/recommended',
+        'plugin:import/recommended',
       ],
       rules: {
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 
         // off
+        'no-useless-constructor': 'off',
         'import/no-unresolved': 'off',
         'prefer-promise-reject-errors': 'off',
         'unicorn/no-null': 'off',
@@ -83,7 +85,45 @@ module.exports = {
         // error
         'block-scoped-var': 'error',
         'camelcase': ['error', { allow: ['^UNSAFE_', '^unstable_'], properties: 'never', ignoreGlobals: true }],
-        'import/order': 'error',
+        'sort-imports': [
+          'error',
+          {
+            ignoreDeclarationSort: true,
+            ignoreCase: false,
+          },
+        ],
+        'import/order': [
+          'error',
+          {
+            'groups': [
+              'builtin',
+              'external',
+              'internal',
+              'parent',
+              'sibling',
+              'index',
+            ],
+            'pathGroupsExcludedImportTypes': [
+            ],
+            'newlines-between': 'never',
+            'alphabetize': {
+              order: 'asc',
+              orderImportKind: 'asc',
+              caseInsensitive: true,
+            },
+            'pathGroups': [
+              {
+                pattern: '{react,vue}*',
+                group: 'external',
+                position: 'before',
+              },
+              {
+                pattern: '{src,test,lib,type}?(s)/**',
+                group: 'internal',
+              },
+            ],
+          },
+        ],
         'indent': ['error', 2, { SwitchCase: 1 }],
         'jsx-quotes': ['error', 'prefer-single'],
         'no-extra-parens': ['error', 'all', { conditionalAssign: false, returnAssign: false, nestedBinaryExpressions: false, ignoreJSX: 'multi-line' }],

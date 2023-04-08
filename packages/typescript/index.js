@@ -2,8 +2,11 @@ module.exports = {
   extends: ['@mutoe/eslint-config-preset-basic'],
   overrides: [
     {
-      files: ['*.?(m|c)ts?(x)', '*.(vue|svelte)'],
-      extends: ['plugin:@typescript-eslint/recommended'],
+      files: ['*.ts?(x)', '*.(vue|svelte)'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:import/typescript',
+      ],
       rules: {
         'indent': 'off',
         '@typescript-eslint/indent': ['error', 2],
@@ -53,7 +56,7 @@ module.exports = {
       },
     },
     {
-      files: ['*.{test,spec,cy}.ts?(x)'],
+      files: ['*.{test,spec,e2e-spec,cy}.ts?(x)'],
       rules: {
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
