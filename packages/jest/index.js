@@ -1,7 +1,7 @@
 module.exports = {
   overrides: [
     {
-      files: ['*.{test,spec}.?(c|m)[tj]s?(x)', '**/*.snap'],
+      files: ['*.{test,spec,e2e-spec}.?(c|m)[tj]s?(x)', '**/*.snap'],
       extends: [
         'plugin:jest/recommended',
         'plugin:jest/style',
