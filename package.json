@@ -1,9 +1,9 @@
 {
   "name": "@mutoe/eslint-config-preset",
   "author": "mutoe",
+  "private": true,
   "version": "2.0.0",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "release": "lerna publish --conventional-commits",
     "bootstrap": "lerna bootstrap"
