@@ -53,6 +53,9 @@ module.exports = {
           allowDeclarations: true,
         }],
         '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-unsafe-assignment': 'warn',
+        '@typescript-eslint/no-unsafe-member-access': 'warn',
+        '@typescript-eslint/no-unsafe-argument': 'warn',
       },
     },
     {
