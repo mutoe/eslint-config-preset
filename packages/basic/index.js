@@ -152,7 +152,13 @@ module.exports = {
       },
     },
     {
-      files: ['**/.*rc.js'],
+      files: [
+        './.{eslint,prettier,swc,babel}rc*',
+        './*.config?(.*).{js,cjs,mjs,ts}',
+      ],
+      env: {
+        node: true,
+      },
       rules: {
         'unicorn/prefer-module': 'off',
       },
