@@ -70,6 +70,19 @@ module.exports = {
         'unicorn/no-useless-undefined': 'off',
         'unicorn/filename-case': 'off',
         'unicorn/consistent-destructuring': 'off',
+        'unicorn/no-nested-ternary': 'off',
+        'unicorn/explicit-length-check': 'off',
+        'unicorn/no-lonely-if': 'off',
+        'unicorn/prefer-regexp-test': 'off',
+        'unicorn/prefer-type-error': 'off',
+        'unicorn/prefer-spread': 'off',
+        'unicorn/better-regex': 'off',
+        'unicorn/no-array-callback-reference': 'off',
+        'unicorn/numeric-separators-style': 'off',
+        'unicorn/new-for-builtins': 'off',
+        'import/namespace': 'off',
+        'unicorn/no-hex-escape': 'off',
+        'unicorn/escape-case': 'off',
 
         // warning
         'no-alert': 'warn',
@@ -153,10 +166,8 @@ module.exports = {
         'max-statements': 'off',
         'max-statements-per-line': 'off',
         'n/no-callback-literal': 'off',
-
-        // warn
-        'max-depth': ['warn', 10],
-        'max-nested-callbacks': ['warn', 5],
+        'max-nested-callbacks': 'off',
+        'max-depth': 'off',
 
         // error
         'prefer-arrow-callback': [
