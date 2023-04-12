@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/mutoe/eslint-config-preset/compare/v3.0.0...v3.1.0) (2023-04-12)
+
+
+### Bug Fixes
+
+* add e2e-spec to test files ([8bdb07c](https://github.com/mutoe/eslint-config-preset/commit/8bdb07cb2ea5dafadb2ef6c708b569b98f750db1))
+* suppress unnecessary rules ([dad8096](https://github.com/mutoe/eslint-config-preset/commit/dad8096775b8534ffd4ce3f401e806518e550a60))
+
+
+### Features
+
+* change un-unsafe-* rules to warn level ([ada5b55](https://github.com/mutoe/eslint-config-preset/commit/ada5b55e58877d367a000b1fb063384015aeac34))
+
+
+
+
+
 # [3.0.0](https://github.com/mutoe/eslint-config-preset/compare/v2.4.2...v3.0.0) (2023-04-08)
 
 

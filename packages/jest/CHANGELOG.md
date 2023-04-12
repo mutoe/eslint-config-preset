@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/mutoe/eslint-config-preset/compare/v3.0.0...v3.1.0) (2023-04-12)
+
+
+### Bug Fixes
+
+* add e2e-spec to test files ([8bdb07c](https://github.com/mutoe/eslint-config-preset/commit/8bdb07cb2ea5dafadb2ef6c708b569b98f750db1))
+
+
+
+
+
 # [3.0.0](https://github.com/mutoe/eslint-config-preset/compare/v2.4.2...v3.0.0) (2023-04-08)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-jest

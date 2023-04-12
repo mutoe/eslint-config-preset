@@ -47,7 +47,7 @@ importers:
   packages/jest:
     dependencies:
       '@mutoe/eslint-config-preset-basic':
-        specifier: workspace:^3.0.0
+        specifier: workspace:^3.1.0
         version: link:../basic
       eslint:
         specifier: ^8
@@ -62,13 +62,13 @@ importers:
   packages/output:
     dependencies:
       '@mutoe/eslint-config-preset-jest':
-        specifier: ^3.0.0
+        specifier: ^3.1.0
         version: link:../jest
       '@mutoe/eslint-config-preset-react':
-        specifier: ^3.0.0
+        specifier: ^3.1.0
         version: link:../react
       '@mutoe/eslint-config-preset-vue':
-        specifier: ^3.0.0
+        specifier: ^3.1.0
         version: link:../vue
       eslint:
         specifier: ^8
@@ -77,7 +77,7 @@ importers:
   packages/preact:
     dependencies:
       '@mutoe/eslint-config-preset-ts':
-        specifier: ^3.0.0
+        specifier: ^3.1.0
         version: link:../typescript
       eslint:
         specifier: ^8
@@ -95,7 +95,7 @@ importers:
   packages/react:
     dependencies:
       '@mutoe/eslint-config-preset-ts':
-        specifier: ^3.0.0
+        specifier: ^3.1.0
         version: link:../typescript
       eslint:
         specifier: ^8
@@ -128,7 +128,7 @@ importers:
   packages/typescript:
     dependencies:
       '@mutoe/eslint-config-preset-basic':
-        specifier: ^3.0.0
+        specifier: ^3.1.0
         version: link:../basic
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.57.1
@@ -146,7 +146,7 @@ importers:
   packages/vue:
     dependencies:
       '@mutoe/eslint-config-preset-ts':
-        specifier: ^3.0.0
+        specifier: ^3.1.0
         version: link:../typescript
       eslint:
         specifier: ^8
