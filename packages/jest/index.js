@@ -1,7 +1,7 @@
 module.exports = {
   overrides: [
     {
-      files: ['*.{test,spec,e2e-spec}.?(c|m)[tj]s?(x)', '**/*.snap'],
+      files: ['*.{test,spec,e2e-spec}.{js,ts,cjs,mjs,jsx,tsx}', '**/*.snap'],
       extends: [
         'plugin:jest/recommended',
         'plugin:jest/style',
@@ -9,15 +9,11 @@ module.exports = {
       rules: {
         'max-lines-per-function': 'off',
         'max-lines': 'off',
-        'max-depth': ['warn', 10],
-        'max-nested-callbacks': ['warn', 5],
+        'max-depth': 'off',
+        'max-nested-callbacks': 'off',
         'max-statements': 'off',
         'max-statements-per-line': 'off',
-
-        // off
         'n/no-callback-literal': 'off',
-        'jest/max-expects': 'off',
-        'jest/prefer-to-be': 'off',
         'prefer-arrow-callback': [
           'error',
           {
@@ -26,7 +22,8 @@ module.exports = {
           },
         ],
 
-        // error
+        'jest/max-expects': 'off',
+        'jest/prefer-to-be': 'off',
         'jest/prefer-hooks-on-top': 'error',
         'jest/prefer-todo': 'error',
         'jest/require-top-level-describe': 'error',

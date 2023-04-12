@@ -56,7 +56,7 @@ module.exports = {
       },
     },
     {
-      files: ['*.{test,spec,e2e-spec,cy}.ts?(x)'],
+      files: ['*.{test,spec,cy,e2e-spec}.{js,ts,cjs,mjs,jsx,tsx}'],
       rules: {
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',

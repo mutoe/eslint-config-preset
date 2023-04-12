@@ -164,7 +164,7 @@ module.exports = {
       },
     },
     {
-      files: ['*.{test,spec,cy}.?(c|m)[tj]s?(x)'],
+      files: '*.{test,spec,cy,e2e-spec}.{js,ts,cjs,mjs,jsx,tsx}',
       rules: {
         // off
         'max-lines-per-function': 'off',
