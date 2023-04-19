@@ -3,10 +3,24 @@ module.exports = {
   extends: ['@mutoe/eslint-config-preset-ts'],
   overrides: [
     {
-      files: ['*.?(m|c)[tj]s?(x)'],
+      files: ['*.ts?(x)'],
       extends: ['plugin:@typescript-eslint/recommended-requiring-type-checking'],
       rules: {
         '@typescript-eslint/promise-function-async': 'error',
+
+        '@typescript-eslint/no-unsafe-return': 'warn',
+        '@typescript-eslint/no-unsafe-assignment': 'warn',
+        '@typescript-eslint/no-unsafe-member-access': 'warn',
+        '@typescript-eslint/no-unsafe-argument': 'warn',
+      },
+    },
+    {
+      files: ['*.{test,spec,cy,e2e-spec}.ts?(x)}'],
+      rules: {
+        '@typescript-eslint/no-unsafe-return': 'off',
+        '@typescript-eslint/no-unsafe-argument': 'off',
+        '@typescript-eslint/no-unsafe-assignment': 'off',
+        '@typescript-eslint/no-unsafe-member-access': 'off',
       },
     },
   ],
