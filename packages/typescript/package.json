@@ -16,7 +16,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-basic": "^3.1.0",
+    "@mutoe/eslint-config-preset-basic": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1"
   }

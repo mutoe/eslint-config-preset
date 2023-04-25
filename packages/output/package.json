@@ -18,8 +18,11 @@
     "eslint": "^8"
   },
   "dependencies": {
-    "@mutoe/eslint-config-preset-jest": "^3.1.0",
-    "@mutoe/eslint-config-preset-react": "^3.1.0",
-    "@mutoe/eslint-config-preset-vue": "^3.1.0"
+    "@mutoe/eslint-config-preset-jest": "workspace:^",
+    "@mutoe/eslint-config-preset-react": "workspace:^",
+    "@mutoe/eslint-config-preset-vue": "workspace:^"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
   }
 }
