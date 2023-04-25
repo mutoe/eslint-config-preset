@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/mutoe/eslint-config-preset/compare/v3.1.0...v3.1.1) (2023-04-25)
+
+
+### Bug Fixes
+
+* fix un-unsafe-* rules to with-parser extends config ([e4751c9](https://github.com/mutoe/eslint-config-preset/commit/e4751c9452dad8f68684df968289847c3450f27c))
+* inner dependencies issue ([279eb83](https://github.com/mutoe/eslint-config-preset/commit/279eb83faea01699791a84a1b8598552624b556c))
+
+
+
+
+
 # [3.1.0](https://github.com/mutoe/eslint-config-preset/compare/v3.0.0...v3.1.0) (2023-04-12)
 
 
