@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@mutoe/eslint-config-preset-ts": "workspace:^",
-    "eslint-plugin-vue": "^9.10.0",
+    "eslint-plugin-vue": "^9.11.0",
     "eslint-plugin-vuejs-accessibility": "^2.1.0",
     "vue-eslint-parser": "^9.1.1"
   }

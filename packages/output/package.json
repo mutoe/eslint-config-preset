@@ -23,6 +23,6 @@
     "@mutoe/eslint-config-preset-vue": "workspace:^"
   },
   "devDependencies": {
-    "eslint": "^8.38.0"
+    "eslint": "^8.39.0"
   }
 }
