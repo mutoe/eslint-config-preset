@@ -35,7 +35,7 @@ module.exports = {
           nestedBinaryExpressions: false,
           ignoreJSX: 'multi-line',
         }],
-        '@typescript-eslint/ban-ts-comment': 'error',
+        '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/array-type': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/member-delimiter-style': ['error', {
