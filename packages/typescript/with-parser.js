@@ -15,12 +15,15 @@ module.exports = {
       },
     },
     {
-      files: ['*.{test,spec,cy,e2e-spec}.ts?(x)}'],
+      files: ['*.{test,spec,cy,e2e-spec,fixture}.ts?(x)}'],
       rules: {
+        '@typescript-eslint/no-unsafe-call': 'off',
         '@typescript-eslint/no-unsafe-return': 'off',
         '@typescript-eslint/no-unsafe-argument': 'off',
         '@typescript-eslint/no-unsafe-assignment': 'off',
         '@typescript-eslint/no-unsafe-member-access': 'off',
+        '@typescript-eslint/require-await': 'off',
+        '@typescript-eslint/unbound-method': 'off',
       },
     },
   ],

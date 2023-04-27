@@ -164,7 +164,15 @@ module.exports = {
       },
     },
     {
-      files: '*.{test,spec,cy,e2e-spec}.{js,ts,cjs,mjs,jsx,tsx}',
+      files: ['*.{content,config,fixture}.*'],
+      rules: {
+        'max-len': 'off',
+        'max-lines': 'off',
+        'max-lines-per-function': 'off',
+      },
+    },
+    {
+      files: '*.{test,spec,cy,e2e-spec,fixture}.{js,ts,cjs,mjs,jsx,tsx}',
       rules: {
         // off
         'max-lines-per-function': 'off',
