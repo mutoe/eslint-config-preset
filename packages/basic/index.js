@@ -1,3 +1,7 @@
+const INDENT = process.env.ESLINT_INDENT || 2
+const SEMI = process.env.ESLINT_SEMI || 'never'
+const SPACE_BEFORE_FUNCTION_PAREN = process.env.SPACE_BEFORE_FUNCTION_PAREN || 'always'
+
 /** Basic config */
 module.exports = {
   env: {
@@ -106,6 +110,10 @@ module.exports = {
         'max-statements-per-line': ['warn', { max: 1 }],
 
         // error
+        'indent': ['error', INDENT, { SwitchCase: 1 }],
+        'semi': ['error', SEMI],
+        'space-before-function-paren': ['error', SPACE_BEFORE_FUNCTION_PAREN],
+
         'block-scoped-var': 'error',
         'camelcase': ['error', { allow: ['^UNSAFE_', '^unstable_'], properties: 'never', ignoreGlobals: true }],
         'sort-imports': [
@@ -147,7 +155,6 @@ module.exports = {
             ],
           },
         ],
-        'indent': ['error', 2, { SwitchCase: 1 }],
         'jsx-quotes': ['error', 'prefer-single'],
         'no-extra-parens': ['error', 'all', { conditionalAssign: false, returnAssign: false, nestedBinaryExpressions: false, ignoreJSX: 'multi-line' }],
         'no-var': 'error',

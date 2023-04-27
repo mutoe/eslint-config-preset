@@ -54,6 +54,28 @@ module.exports = {
 }
 ```
 
+### Configurable rules
+
+```javascript .eslintrc.js
+// your .eslintrc.js
+process.env.ESLINT_INDENT = 4 // default 2
+process.env.ESLINT_SEMI = 'always' // default 'never'
+process.env.SPACE_BEFORE_FUNCTION_PAREN = 'never' // default 'always'
+
+module.exports = {
+    "extends": [
+        "@mutoe/eslint-config-preset",
+    ]
+}
+
+```
+
+## Development
+
+```bash
+pnpm link
+```
+
 ## Release
 
 ```bash

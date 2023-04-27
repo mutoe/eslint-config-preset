@@ -1,3 +1,6 @@
 {
-  "extends": "@mutoe/eslint-config-preset-basic"
+  "extends": "./packages/basic",
+  "env": {
+    "node": true
+  }
 }
