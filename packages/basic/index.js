@@ -154,8 +154,10 @@ module.exports = {
     },
     {
       files: [
-        './.{eslint,prettier,swc,babel}rc*',
-        './*.config?(.*).{js,cjs,mjs,ts}',
+        '.{eslint,prettier,swc,babel,postcss,stylelint}rc*',
+        '{vite,webpack,next,nuxt,nest,vue}?(.*).config.{js,cjs,mjs,ts}',
+        '{eslint,lint-staged,husky,commitlint}?(.*).config.{js,cjs,mjs,ts}',
+        '{jest,vitest,cypress}?(.*).config.{js,cjs,mjs,ts}',
       ],
       env: {
         node: true,
