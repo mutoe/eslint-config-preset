@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['@mutoe/eslint-config-preset-basic'],
+  parser: '@typescript-eslint/parser',
   overrides: [
     {
       files: ['*.ts?(x)', '*.(vue|svelte)'],

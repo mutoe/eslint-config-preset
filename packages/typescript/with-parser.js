@@ -1,5 +1,4 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
   extends: ['@mutoe/eslint-config-preset-ts'],
   overrides: [
     {
@@ -8,6 +7,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/promise-function-async': 'error',
 
+        '@typescript-eslint/no-unsafe-call': 'warn',
         '@typescript-eslint/no-unsafe-return': 'warn',
         '@typescript-eslint/no-unsafe-assignment': 'warn',
         '@typescript-eslint/no-unsafe-member-access': 'warn',
