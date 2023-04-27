@@ -6,10 +6,19 @@ module.exports = {
     node: true,
   },
   ignorePatterns: [
-    'node_modules/',
+    // library
+    'node_modules',
     '.husky/_/',
+    '.vitepress/cache',
+
+    // generated dirs
+    'coverage',
+    'build',
+    'output',
+    'dist',
     'pnpm-lock.yaml',
     'package-lock.json',
+    '__snapshots__',
   ],
   extends: [
     '@mutoe/eslint-config-preset-standard',
