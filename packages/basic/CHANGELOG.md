@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/mutoe/eslint-config-preset/compare/v3.1.1...v3.2.0) (2023-04-27)
+
+
+### Bug Fixes
+
+* add more default ignore paths ([c5ce6bf](https://github.com/mutoe/eslint-config-preset/commit/c5ce6bfbfb5420bb8dff9313e2c85674d117f254))
+* ignore more unnecessary rules for tests, fixtures and config files ([2265765](https://github.com/mutoe/eslint-config-preset/commit/22657651f03609c9298f02e614129531cf3113d6))
+* ignore unicorn/prefer-module rule ([853a8c4](https://github.com/mutoe/eslint-config-preset/commit/853a8c444db0caa7b205a594d7a0c85fd8a5e661))
+* settings module resolver in js project issue ([57f245c](https://github.com/mutoe/eslint-config-preset/commit/57f245c15e3d1b9b78edeca4ad556722b18042f3))
+* the issue where configuration files did not take effect ([ff0cc64](https://github.com/mutoe/eslint-config-preset/commit/ff0cc6418ae48475bd39eabbfb41a00024047bab))
+
+
+### Features
+
+* support configurable rules ([a18c821](https://github.com/mutoe/eslint-config-preset/commit/a18c821b7659a2fca3c20c4da5d1081a25a6f01c))
+
+
+
+
+
 ## [3.1.1](https://github.com/mutoe/eslint-config-preset/compare/v3.1.0...v3.1.1) (2023-04-25)
 
 
