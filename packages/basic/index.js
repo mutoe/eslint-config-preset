@@ -48,7 +48,7 @@ module.exports = {
       },
     },
     {
-      files: ['*.?(c|m)[tj]s?(x)'],
+      files: ['*.{js,jsx,cjs,mjs,ts,tsx}'],
       extends: [
         'plugin:unicorn/recommended',
         'plugin:import/recommended',
@@ -83,6 +83,7 @@ module.exports = {
         'import/namespace': 'off',
         'unicorn/no-hex-escape': 'off',
         'unicorn/escape-case': 'off',
+        'unicorn/prefer-module': 'off',
 
         // warning
         'no-alert': 'warn',
@@ -158,9 +159,6 @@ module.exports = {
       ],
       env: {
         node: true,
-      },
-      rules: {
-        'unicorn/prefer-module': 'off',
       },
     },
     {

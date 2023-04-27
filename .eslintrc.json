@@ -1,6 +1,3 @@
 {
-  "extends": "@mutoe/eslint-config-preset-basic",
-  "rules": {
-    "unicorn/prefer-module": "off"
-  }
+  "extends": "@mutoe/eslint-config-preset-basic"
 }
