@@ -8,6 +8,7 @@ module.exports = {
     es6: true,
     node: true,
   },
+  reportUnusedDisableDirectives: true,
   ignorePatterns: [
     // library
     'node_modules',
