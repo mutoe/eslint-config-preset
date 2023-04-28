@@ -9,6 +9,7 @@
   },
   "files": [
     "index.js",
+    "standard.js",
     "package-json.js"
   ],
   "main": "index.js",
