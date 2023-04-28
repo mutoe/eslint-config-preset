@@ -66,6 +66,12 @@ module.exports = {
       },
     },
     {
+      files: ['**/{composable,hooks}/*.{ts,tsx}', '**/use*.{ts,tsx}'],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+      },
+    },
+    {
       files: ['*.{test,spec,cy,e2e-spec}.{js,ts,cjs,mjs,jsx,tsx}'],
       rules: {
         '@typescript-eslint/no-non-null-assertion': 'off',
