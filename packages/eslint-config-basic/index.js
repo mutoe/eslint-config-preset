@@ -21,7 +21,7 @@ module.exports = {
         '__snapshots__',
     ],
     extends: [
-        '@mutoe/eslint-config-preset-standard',
+        require.resolve('./standard'),
         require.resolve('./package-json'),
     ],
     plugins: [
