@@ -58,9 +58,7 @@ module.exports = {
 
 ```javascript .eslintrc.js
 // your .eslintrc.js
-process.env.ESLINT_INDENT = 4 // default 2
-process.env.ESLINT_SEMI = 'always' // default 'never'
-process.env.SPACE_BEFORE_FUNCTION_PAREN = 'never' // default 'always'
+// TODO
 
 module.exports = {
     "extends": [

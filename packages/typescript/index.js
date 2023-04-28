@@ -1,7 +1,3 @@
-const INDENT = process.env.ESLINT_INDENT || 2
-const SEMI = process.env.ESLINT_SEMI || 'never'
-const SPACE_BEFORE_FUNCTION_PAREN = process.env.SPACE_BEFORE_FUNCTION_PAREN || 'always'
-
 module.exports = {
   extends: ['@mutoe/eslint-config-preset-basic'],
   parser: '@typescript-eslint/parser',
@@ -19,9 +15,11 @@ module.exports = {
       ],
       rules: {
         'indent': 'off',
-        '@typescript-eslint/indent': ['error', INDENT, { SwitchCase: 1 }],
+        '@typescript-eslint/indent': ['error', 2, { SwitchCase: 1 }],
         'semi': 'off',
-        '@typescript-eslint/semi': ['error', SEMI],
+        '@typescript-eslint/semi': ['error', 'never'],
+        'space-before-function-paren': 'off',
+        '@typescript-eslint/space-before-function-paren': ['error', 'always'],
         'no-undef': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'error',
@@ -31,8 +29,6 @@ module.exports = {
           classes: false,
           variables: false,
         }],
-        'space-before-function-paren': 'off',
-        '@typescript-eslint/space-before-function-paren': ['error', SPACE_BEFORE_FUNCTION_PAREN],
         'space-infix-ops': 'off',
         '@typescript-eslint/space-infix-ops': 'error',
         'no-redeclare': 'off',
