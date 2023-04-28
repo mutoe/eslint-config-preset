@@ -216,6 +216,7 @@ module.exports = {
   rules: {
     'unicode-bom': ['error', 'never'],
     'indent': ['error', INDENT],
+    'no-tabs': INDENT === 'tab' ? 'off' : 'error',
     'eol-last': ['error', 'always'],
     'linebreak-style': ['error', 'unix'],
     'no-trailing-spaces': ['error'],
