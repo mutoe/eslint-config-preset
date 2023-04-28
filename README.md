@@ -26,6 +26,7 @@ Config list (choose one):
 - `@mutoe/eslint-config-preset-react` (support typescript + react + accessibility rules)
 - `@mutoe/eslint-config-preset-vue` (support typescript + vue rules)
 - `@mutoe/eslint-config-preset-jest` (support jest rules)
+- `@mutoe/eslint-config-preset` (support all above rules)
 
 ```javascript .eslintrc.js
 module.exports = {
