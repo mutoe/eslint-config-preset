@@ -27,7 +27,11 @@ module.exports = {
       },
     },
     {
-      files: ['*.{test,spec,cy,e2e-spec,fixture}.ts?(x)}'],
+      files: [
+        '**/*.snap',
+        '**/*.{test,spec,e2e-spec,cy,fixture}.{js,ts,jsx,tsx}',
+        '**/__{test,snapshot,mock}__/*.{js,jsx,ts,tsx}',
+      ],
       rules: {
         '@typescript-eslint/no-unsafe-call': 'off',
         '@typescript-eslint/no-unsafe-return': 'off',

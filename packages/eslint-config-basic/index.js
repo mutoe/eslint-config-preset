@@ -192,7 +192,11 @@ module.exports = {
       },
     },
     {
-      files: '*.{test,spec,cy,e2e-spec,fixture}.{js,ts,cjs,mjs,jsx,tsx}',
+      files: [
+        '**/*.snap',
+        '**/*.{test,spec,e2e-spec,cy,fixture}.{js,ts,jsx,tsx}',
+        '**/__{test,snapshot,mock}__/*.{js,jsx,ts,tsx}',
+      ],
       rules: {
         // off
         'max-lines-per-function': 'off',
