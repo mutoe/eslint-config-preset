@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.1](https://github.com/mutoe/eslint-config-preset/compare/v3.2.0...v3.2.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* remove useless configurable rule ([dc2ef5d](https://github.com/mutoe/eslint-config-preset/commit/dc2ef5df888063d55fc10680189ab4426d4b4f75))
+
+
+
+
+
 # [3.2.0](https://github.com/mutoe/eslint-config-preset/compare/v3.1.1...v3.2.0) (2023-04-27)
 
 
