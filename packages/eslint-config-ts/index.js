@@ -12,7 +12,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.ts?(x)', '*.(vue|svelte)'],
+      files: ['*.ts?(x)', '*.{vue,svelte}'],
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:import/typescript',
