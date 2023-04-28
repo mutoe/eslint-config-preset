@@ -1,4 +1,7 @@
-/** Basic config */
+const INDENT = process.env.ESLINT_INDENT === 'tab' ? 'tab' : Number(process.env.ESLINT_INDENT) || 2
+const SEMI = process.env.ESLINT_SEMI || 'never'
+const SPACE_BEFORE_FUNCTION_PAREN = process.env.ESLINT_SPACE_BEFORE_FUNCTION_PAREN || 'always'
+
 module.exports = {
   env: {
     browser: true,
@@ -106,9 +109,9 @@ module.exports = {
         'max-statements-per-line': ['warn', { max: 1 }],
 
         // error
-        'indent': ['error', 2, { SwitchCase: 1 }],
-        'semi': ['error', 'never'],
-        'space-before-function-paren': ['error', 'always'],
+        'indent': ['error', INDENT, { SwitchCase: 1 }],
+        'semi': ['error', SEMI],
+        'space-before-function-paren': ['error', SPACE_BEFORE_FUNCTION_PAREN],
 
         'block-scoped-var': 'error',
         'camelcase': ['error', { allow: ['^UNSAFE_', '^unstable_'], properties: 'never', ignoreGlobals: true }],
@@ -212,7 +215,7 @@ module.exports = {
   ],
   rules: {
     'unicode-bom': ['error', 'never'],
-    'indent': ['error', 2],
+    'indent': ['error', INDENT],
     'eol-last': ['error', 'always'],
     'linebreak-style': ['error', 'unix'],
     'no-trailing-spaces': ['error'],

@@ -1,3 +1,7 @@
+const INDENT = process.env.ESLINT_INDENT === 'tab' ? 'tab' : Number(process.env.ESLINT_INDENT) || 2
+const SEMI = process.env.ESLINT_SEMI || 'never'
+const SPACE_BEFORE_FUNCTION_PAREN = process.env.ESLINT_SPACE_BEFORE_FUNCTION_PAREN || 'always'
+
 module.exports = {
   extends: ['@mutoe/eslint-config-preset-basic'],
   parser: '@typescript-eslint/parser',
@@ -15,11 +19,11 @@ module.exports = {
       ],
       rules: {
         'indent': 'off',
-        '@typescript-eslint/indent': ['error', 2, { SwitchCase: 1 }],
+        '@typescript-eslint/indent': ['error', INDENT, { SwitchCase: 1 }],
         'semi': 'off',
-        '@typescript-eslint/semi': ['error', 'never'],
+        '@typescript-eslint/semi': ['error', SEMI],
         'space-before-function-paren': 'off',
-        '@typescript-eslint/space-before-function-paren': ['error', 'always'],
+        '@typescript-eslint/space-before-function-paren': ['error', SPACE_BEFORE_FUNCTION_PAREN],
         'no-undef': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'error',

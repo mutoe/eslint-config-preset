@@ -1,3 +1,7 @@
+const INDENT = process.env.ESLINT_INDENT === 'tab' ? 'tab' : Number(process.env.ESLINT_INDENT) || 2
+const SEMI = process.env.ESLINT_SEMI || 'never'
+const SPACE_BEFORE_FUNCTION_PAREN = process.env.ESLINT_SPACE_BEFORE_FUNCTION_PAREN || 'always'
+
 module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
@@ -32,6 +36,10 @@ module.exports = {
       rules: {
         'no-undef': 'off',
         'func-call-spacing': 'off',
+
+        '@typescript-eslint/indent': ['error', INDENT, { SwitchCase: 1 }],
+        '@typescript-eslint/semi': ['error', SEMI],
+        '@typescript-eslint/space-before-function-paren': ['error', SPACE_BEFORE_FUNCTION_PAREN],
 
         // https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility/blob/dfc5d3433a8608edea9862e15f680ab9c9174e94/src/configs/recommended.ts#L14
         'vuejs-accessibility/alt-text': 'warn',
