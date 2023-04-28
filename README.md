@@ -13,9 +13,11 @@
 ### install package
 
 ```bash
-npm i -D eslint @mutoe/eslint-config-preset
+pnpm i -D eslint @mutoe/eslint-config-preset
 # or
-pnpm add -D eslint @mutoe/eslint-config-preset
+pnpm add -D eslint @mutoe/eslint-config-preset-vue # vue project
+pnpm add -D eslint @mutoe/eslint-config-preset-react # react project
+pnpm add -D eslint @mutoe/eslint-config-preset-ts # nodejs project
 ```
 
 ### use in config js
@@ -42,11 +44,10 @@ or using with typescript advanced rules (need typescript parser)
 > This will slow down your lint process in large project. Please use with caution.
 
 ```javascript .eslintrc.js
+// If your tsconfig not the default `tsconfig.json`, you can using following command to assign a tsconfig to parse your typescript project
+// process.env.ESLINT_TSCONFIG = 'tsconfig.build.json'
+
 module.exports = {
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./your/tsconfig.json"
-  },
   "extends": [
     "@mutoe/eslint-config-preset-ts/with-parser",
     "@mutoe/eslint-config-preset-react"

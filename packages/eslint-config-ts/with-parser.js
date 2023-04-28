@@ -1,5 +1,17 @@
+const { existsSync } = require('node:fs')
+const { join } = require('node:path')
+const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.json'
+
+if (!existsSync(join(process.cwd(), tsconfig))) {
+  throw new Error('`tsconfig.json` does not exist. You can use `process.env.ESLINT_TSCONFIG` set your tsconfig file')
+}
+
 module.exports = {
   extends: ['@mutoe/eslint-config-preset-ts'],
+  parserOptions: {
+    tsconfigRootDir: process.cwd(),
+    project: [tsconfig],
+  },
   overrides: [
     {
       files: ['*.ts?(x)'],
