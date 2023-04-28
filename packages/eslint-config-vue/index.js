@@ -37,8 +37,11 @@ module.exports = {
         'no-undef': 'off',
         'func-call-spacing': 'off',
 
+        'indent': 'off',
         '@typescript-eslint/indent': ['error', INDENT, { SwitchCase: 1 }],
+        'semi': 'off',
         '@typescript-eslint/semi': ['error', SEMI],
+        'space-before-function-paren': 'off',
         '@typescript-eslint/space-before-function-paren': ['error', SPACE_BEFORE_FUNCTION_PAREN],
 
         // https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility/blob/dfc5d3433a8608edea9862e15f680ab9c9174e94/src/configs/recommended.ts#L14
