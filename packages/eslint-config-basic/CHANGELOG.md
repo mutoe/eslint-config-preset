@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.4.1](https://github.com/mutoe/eslint-config-preset/compare/v3.4.0...v3.4.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* allow tsconfig has trailing comma ([87e00ce](https://github.com/mutoe/eslint-config-preset/commit/87e00ce70b7279d4ce8dbac7ec834ea63a238878))
+* ignore yaml lint ([c6bf7bd](https://github.com/mutoe/eslint-config-preset/commit/c6bf7bd040adbc15a1b6d6b1b4820e44caa0c1e7))
+
+
+
+
+
 # [3.4.0](https://github.com/mutoe/eslint-config-preset/compare/v3.3.1...v3.4.0) (2023-04-28)
 
 
