@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.3.1](https://github.com/mutoe/eslint-config-preset/compare/v3.3.0...v3.3.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* conflict with rule 'no-tabs' when indent set to 'tab' ([58621da](https://github.com/mutoe/eslint-config-preset/commit/58621da87d12c78ea34f8b799d59ee88fc2f5ad1))
+
+
+
+
+
 # [3.3.0](https://github.com/mutoe/eslint-config-preset/compare/v3.2.3...v3.3.0) (2023-04-28)
 
 
