@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.3](https://github.com/mutoe/eslint-config-preset/compare/v3.2.2...v3.2.3) (2023-04-28)
+
+
+### Bug Fixes
+
+* export standard.js ([43f144d](https://github.com/mutoe/eslint-config-preset/commit/43f144df6d68384ddec9aefc21c6ba614fb49cd0))
+* unload @mutoe/eslint-plugin temporary ([59e7b9c](https://github.com/mutoe/eslint-config-preset/commit/59e7b9cc74c52485dc8139daa16fbd7a823c2029))
+
+
+
+
+
 ## [3.2.2](https://github.com/mutoe/eslint-config-preset/compare/v3.2.1...v3.2.2) (2023-04-28)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-basic
