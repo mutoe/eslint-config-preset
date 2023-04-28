@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0](https://github.com/mutoe/eslint-config-preset/compare/v3.3.1...v3.4.0) (2023-04-28)
+
+
+### Bug Fixes
+
+* add more test file pattern ([2f886ed](https://github.com/mutoe/eslint-config-preset/commit/2f886ed5012287ec5f524666c7280da4dbef3efe))
+* ignore explicit-module-boundary-types for hooks files ([616d10d](https://github.com/mutoe/eslint-config-preset/commit/616d10d59adcab28b3c6cd2f6689ce315b5310b5))
+* vue overrides mismatch issue ([4595ed8](https://github.com/mutoe/eslint-config-preset/commit/4595ed8b6bcd434a3ebd4fcf9737f183fee5a75f))
+
+
+### Features
+
+* inside tsconfig to typescript config ([a03884d](https://github.com/mutoe/eslint-config-preset/commit/a03884de683d561f78f9b5fe6ad65c5186f536d5))
+
+
+
+
+
 ## [3.3.1](https://github.com/mutoe/eslint-config-preset/compare/v3.3.0...v3.3.1) (2023-04-28)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-ts

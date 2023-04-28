@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0](https://github.com/mutoe/eslint-config-preset/compare/v3.3.1...v3.4.0) (2023-04-28)
+
+
+### Bug Fixes
+
+* vue overrides mismatch issue ([4595ed8](https://github.com/mutoe/eslint-config-preset/commit/4595ed8b6bcd434a3ebd4fcf9737f183fee5a75f))
+
+
+
+
+
 ## [3.3.1](https://github.com/mutoe/eslint-config-preset/compare/v3.3.0...v3.3.1) (2023-04-28)
 
 
