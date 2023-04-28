@@ -58,6 +58,7 @@ module.exports = {
       files: ['**/tsconfig*.json', '.swcrc'],
       rules: {
         'no-multi-spaces': 'off',
+        'comma-dangle': ['error', 'always-multiline'],
       },
     },
     {
