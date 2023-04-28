@@ -22,7 +22,6 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': 'error',
 
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
-    'vue/no-v-html': 'warn',
     'vue/multi-word-component-names': 'off',
     'vue/no-setup-props-destructure': 'off',
   },
