@@ -24,7 +24,6 @@ Config list (choose one):
 - `@mutoe/eslint-config-preset-basic` (basic javascript + json + yaml lint rules)
 - `@mutoe/eslint-config-preset-ts` (support basic + typescript rules)
 - `@mutoe/eslint-config-preset-react` (support typescript + react + accessibility rules)
-- `@mutoe/eslint-config-preset-preact` (support typescript + preact + accessibility rules)
 - `@mutoe/eslint-config-preset-vue` (support typescript + vue rules)
 - `@mutoe/eslint-config-preset-jest` (support jest rules)
 
