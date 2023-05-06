@@ -2,6 +2,8 @@ const INDENT = process.env.ESLINT_INDENT === 'tab' ? 'tab' : Number(process.env.
 const SEMI = process.env.ESLINT_SEMI || 'never'
 const SPACE_BEFORE_FUNCTION_PAREN = process.env.ESLINT_SPACE_BEFORE_FUNCTION_PAREN || 'always'
 
+const basic = require('@mutoe/eslint-config-preset-basic')
+
 module.exports = {
   extends: ['@mutoe/eslint-config-preset-basic'],
   parser: '@typescript-eslint/parser',
@@ -10,7 +12,7 @@ module.exports = {
       node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
     },
   },
-  overrides: [
+  overrides: basic.overrides.concat([
     {
       files: ['*.ts?(x)', '*.{vue,svelte}'],
       extends: [
@@ -90,5 +92,5 @@ module.exports = {
         '@typescript-eslint/require-await': 'off',
       },
     },
-  ],
+  ]),
 }

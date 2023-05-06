@@ -1,3 +1,5 @@
+const ts = require('@mutoe/eslint-config-preset-ts')
+
 module.exports = {
   env: {
     browser: true,
@@ -53,7 +55,7 @@ module.exports = {
 
     'react-hooks/rules-of-hooks': 'error',
   },
-  overrides: [
+  overrides: ts.overrides.concat([
     {
       files: ['**/*.{js,jsx,tsx}'],
       rules: {
@@ -84,5 +86,5 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': 'warn',
       },
     },
-  ],
+  ]),
 }

@@ -1,3 +1,5 @@
+const ts = require('@mutoe/eslint-config-preset-ts')
+
 module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
@@ -21,7 +23,7 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'vue/no-setup-props-destructure': 'off',
   },
-  overrides: [
+  overrides: ts.overrides.concat([
     {
       files: ['*.vue'],
       env: {
@@ -56,5 +58,5 @@ module.exports = {
         'vuejs-accessibility/tabindex-no-positive': 'warn',
       },
     },
-  ],
+  ]),
 }
