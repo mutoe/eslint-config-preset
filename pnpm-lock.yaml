@@ -38,9 +38,6 @@ importers:
 
   packages/eslint-config-basic:
     dependencies:
-      '@mutoe/eslint-plugin':
-        specifier: workspace:^
-        version: link:../eslint-plugin
       eslint:
         specifier: ^8
         version: 8.39.0

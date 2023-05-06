@@ -1,7 +1,7 @@
 {
   "name": "@mutoe/eslint-config-preset-jest",
   "author": "mutoe <imutoe@gmail.com>",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "description": "eslint jest config",
   "homepage": "https://github.com/mutoe/eslint-config-preset#readme",
   "license": "MIT",
