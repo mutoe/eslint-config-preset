@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.4.5](https://github.com/mutoe/eslint-config-preset/compare/v3.4.4...v3.4.5) (2023-06-06)
+
+
+### Bug Fixes
+
+* vue3 rules ([92b802c](https://github.com/mutoe/eslint-config-preset/commit/92b802c44bbe59f0d6fa2d085317fc8381efb756))
+
+
+
+
+
 ## [3.4.4](https://github.com/mutoe/eslint-config-preset/compare/v3.4.3...v3.4.4) (2023-05-06)
 
 
