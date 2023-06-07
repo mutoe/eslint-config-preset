@@ -172,6 +172,7 @@ module.exports = {
         'operator-linebreak': ['error', 'before'],
         'quote-props': ['error', 'consistent-as-needed'],
         'unicorn/consistent-function-scoping': ['error', { checkArrowFunctions: false }],
+        'array-element-newline': ['error', 'consistent'],
       },
     },
     {
