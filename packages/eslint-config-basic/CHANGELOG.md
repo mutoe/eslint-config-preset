@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/mutoe/eslint-config-preset/compare/v3.4.5...v3.5.0) (2023-06-07)
+
+
+### Bug Fixes
+
+* add array-element-newline rule ([1e7a74a](https://github.com/mutoe/eslint-config-preset/commit/1e7a74ab82e03a853339f3e47ebd618100795af4))
+
+
+
+
+
 ## [3.4.3](https://github.com/mutoe/eslint-config-preset/compare/v3.4.2...v3.4.3) (2023-05-06)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset-basic

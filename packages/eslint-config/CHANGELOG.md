@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/mutoe/eslint-config-preset/compare/v3.4.5...v3.5.0) (2023-06-07)
+
+**Note:** Version bump only for package @mutoe/eslint-config-preset
+
+
+
+
+
 ## [3.4.5](https://github.com/mutoe/eslint-config-preset/compare/v3.4.4...v3.4.5) (2023-06-06)
 
 **Note:** Version bump only for package @mutoe/eslint-config-preset

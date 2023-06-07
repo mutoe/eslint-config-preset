@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/mutoe/eslint-config-preset/compare/v3.4.5...v3.5.0) (2023-06-07)
+
+
+### Bug Fixes
+
+* turn off ts explicit module boundary type rule ([7a8d6b8](https://github.com/mutoe/eslint-config-preset/commit/7a8d6b8eb583e5052fde2994c752553e95609155))
+
+
+
+
+
 ## [3.4.4](https://github.com/mutoe/eslint-config-preset/compare/v3.4.3...v3.4.4) (2023-05-06)
 
 
