@@ -13,10 +13,22 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/consistent-type-imports': 'error',
+    'vue/component-tags-order': ['error', {
+      order: [
+        'template',
+        'script:not([setup])',
+        'script',
+        'style:not([scoped])',
+        'style',
+        'i18n[local=en]',
+        'i18n[local=zh]',
+        'i18n',
+      ],
+    }],
 
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
     'vue/multi-word-component-names': 'off',
-    'vue/no-setup-props-destructure': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
   },
   overrides: [
     {
