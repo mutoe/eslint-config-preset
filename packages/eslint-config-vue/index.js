@@ -29,6 +29,8 @@ module.exports = {
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
     'vue/multi-word-component-names': 'off',
     'vue/singleline-html-element-content-newline': 'off',
+    'vue/block-spacing': ['error', 'always'],
+    'vue/html-comment-content-spacing': ['error', 'always'],
   },
   overrides: [
     {
@@ -40,6 +42,9 @@ module.exports = {
       rules: {
         'no-undef': 'off',
         'func-call-spacing': 'off',
+
+        // prevent multiple script block misinformation
+        'import/first': 'off',
 
         // https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility/blob/dfc5d3433a8608edea9862e15f680ab9c9174e94/src/configs/recommended.ts#L14
         'vuejs-accessibility/alt-text': 'warn',
