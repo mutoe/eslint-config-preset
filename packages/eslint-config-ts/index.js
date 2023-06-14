@@ -65,6 +65,12 @@ module.exports = {
       },
     },
     {
+      files: ['*.d.ts'],
+      rules: {
+        '@typescript-eslint/consistent-type-imports': 'off',
+      },
+    },
+    {
       files: ['**/{composable,hooks}/*.{ts,tsx}', '**/use*.{ts,tsx}'],
       rules: {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
