@@ -63,7 +63,7 @@ module.exports = {
       },
     },
     {
-      files: ['*.{js,jsx,cjs,mjs,ts,tsx}'],
+      files: ['*.{js,jsx,cjs,mjs,ts,tsx,vue}'],
       extends: [
         'plugin:unicorn/recommended',
         'plugin:import/recommended',
