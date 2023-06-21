@@ -1,7 +1,7 @@
 {
   "name": "@mutoe/eslint-config-preset",
   "author": "mutoe",
-  "version": "3.5.1",
+  "version": "3.5.2",
   "description": "lint preset",
   "license": "MIT",
   "publishConfig": {

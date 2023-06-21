@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.5.2](https://github.com/mutoe/eslint-config-preset/compare/v3.5.1...v3.5.2) (2023-06-21)
+
+
+### Bug Fixes
+
+* ignore consistent-type-imports in ts declaration file ([05816ed](https://github.com/mutoe/eslint-config-preset/commit/05816ed1f2d406384268e18ca9b7e56a8e427856))
+* package-json cannot work as expect ([88b74d0](https://github.com/mutoe/eslint-config-preset/commit/88b74d084dbcdc5d2bed890f51d35b8ec1c159fa))
+* vue basic lint rules ([69b307e](https://github.com/mutoe/eslint-config-preset/commit/69b307edf52d3c41628c12fedd680914f55c52bc))
+
+
+
+
+
 ## [3.5.1](https://github.com/mutoe/eslint-config-preset/compare/v3.5.0...v3.5.1) (2023-06-08)
 
 
