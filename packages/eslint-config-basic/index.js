@@ -26,7 +26,6 @@ module.exports = {
   ],
   extends: [
     require.resolve('./standard'),
-    require.resolve('./package-json'),
   ],
   plugins: [
     'html',
@@ -55,6 +54,7 @@ module.exports = {
         'semi': ['error', 'never'],
       },
     },
+    ...require('./package-json').overrides,
     {
       files: ['**/tsconfig*.json', '.swcrc'],
       rules: {

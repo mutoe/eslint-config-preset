@@ -9,8 +9,8 @@
   },
   "files": [
     "index.js",
-    "standard.js",
-    "package-json.js"
+    "package-json.js",
+    "standard.js"
   ],
   "main": "index.js",
   "scripts": {
