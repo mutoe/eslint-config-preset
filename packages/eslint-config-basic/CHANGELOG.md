@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.6.0](https://github.com/mutoe/eslint-config-preset/compare/v3.5.3...v3.6.0) (2023-12-08)
+
+
+### Features
+
+* add more package.json properties order ([da97336](https://github.com/mutoe/eslint-config-preset/commit/da97336a47eb5a836fe3ff01a796cc52fac337b4))
+
+
+
+
+
 ## [3.5.3](https://github.com/mutoe/eslint-config-preset/compare/v3.5.2...v3.5.3) (2023-07-25)
 
 
